@@ -1,0 +1,386 @@
+[
+    {
+        "name": "R Basement",
+        "access_rules": [
+        "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+        ],
+        "children": [
+            {
+                "name": "Parking Garage (LA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Police Car Trunk",
+                        "access_rules": [
+			"carkey"
+			],
+                        "sections": [
+                            {
+                                "name": "Police Car Trunk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 232,
+                                "y": 214,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Jail (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "First Office",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Office",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 151,
+                                "y": 266,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Last Cell",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Last Cell",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 37,
+                                "y": 283,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ben's Corpse",
+                        "access_rules": [
+			"boxedelectronicpart1, boxedelectronicpart2"
+			],
+                        "sections": [
+                            {
+                                "name": "Ben's Corpse",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 63,
+                                "y": 278,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Last Cell Toilet",
+                        "access_rules": [
+			"boxedelectronicpart1, boxedelectronicpart2"
+			],
+                        "sections": [
+                            {
+                                "name": "Last Cell Toilet",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 63,
+                                "y": 267,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Firing Range (LA)",
+                "access_rules": [
+                "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 331,
+                                "y": 123,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cart inside Range",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cart inside Range",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 307,
+                                "y": 145,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diamond Room",
+                        "access_rules": [	
+			"diamondkey"
+			],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Bench",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 317,
+                                "y": 94,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Kennel (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Outside",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 333,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Baskets near Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Baskets near Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 318,
+                                "y": 220,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Morgue (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "2nd Body Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "2nd Body Drawer",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 395,
+                                "y": 241,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "6th Body Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "6th Body Drawer",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 419,
+                                "y": 241,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Last Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Last Drawer",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 395,
+                                "y": 193,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Generator Room (LA)",
+                "access_rules": [
+                "squarecrank"
+                ],
+                "children": [
+                    {
+                        "name": "Near Door on Ground",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Near Door on Ground",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 386,
+                                "y": 136,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 406,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Corner Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Corner Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 413,
+                                "y": 159,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }    
+        ] 
+    }
+]

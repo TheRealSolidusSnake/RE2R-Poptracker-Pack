@@ -1,0 +1,739 @@
+[
+    {
+        "name": "R Second Floor",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Main Hall (LA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Lion Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Lion Statue",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 212,
+                                "y": 122,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2F Couch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "2F Couch",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 166,
+                                "y": 266,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Hallway 2F (LA)",
+                "access_rules": [
+                    "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 157,
+                                "y": 124,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Coffee Vending Machine",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Coffee Vending Machine",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 77,
+                                "y": 120,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Shower Room (LA)",
+                "access_rules": [
+                    "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 116,
+                                "y": 106,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Far Locker by Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Far Locker by Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 117,
+                                "y": 93,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locked Locker (CAP)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locked Locker (CAP)",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 105,
+                                "y": 90,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker past Steam",
+                        "access_rules": [
+                            "valvehandle"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker past Steam",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 38,
+                                "y": 108,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "STARS Office Hallway (LA)",
+                "access_rules": [
+                    "combatknife, valvehandle"
+                ],
+                "sections": [
+                    {
+                        "name": "Couch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "R Second Floor",
+                        "x": 42,
+                        "y": 138,
+                        "size": 3
+                    }
+                ]
+            },
+            {
+                "name": "STARS Office (LA)",
+                "access_rules": [
+                    "combatknife, valvehandle"
+                ],
+                "children": [
+                    {
+                        "name": "Small Office Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Hiding Place Drawer",
+                                "access_rules": [
+                                    "film-hidingplace"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Hiding Place Film",
+                                "access_rules": [
+                                    "film-hidingplace"
+                                ],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 45,
+                                "y": 158,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boxes by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 46,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk near Armory",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk near Armory",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 70,
+                                "y": 172,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Box between Desks",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Box between Desks",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 81,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Aid on Wall",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Aid on Wall",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 85,
+                                "y": 194,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk near First Aid Kit",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk near First Aid Kit",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 79,
+                                "y": 200,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Armory (LA)",
+                "access_rules": [
+                    "combatknife, valvehandle, redbook, statueleftarm, bejeweledbox"
+                ],
+                "sections": [
+                    {
+                        "name": "Weapon Cage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "R Second Floor",
+                        "x": 77,
+                        "y": 130,
+                        "size": 3
+                    }
+                ]
+            },
+            {
+                "name": "Linen Room (LA)",
+                "access_rules": [
+                    "combatknife, valvehandle, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 66,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Washing Machine",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Washing Machine",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 50,
+                                "y": 227,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "RPD Lounge (LA)",
+                "access_rules": [
+                    "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Side Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Side Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 95,
+                                "y": 240,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Unicorn Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Unicorn Statue",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 125,
+                                "y": 243,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Library (LA)",
+                "access_rules": [
+                    "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 101,
+                                "y": 211,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Front Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Front Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 148,
+                                "y": 204,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Moveable Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Behind Moveable Shelves",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 104,
+                                "y": 135,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Waiting Room (LA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 285,
+                                "y": 228,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Safe behind Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe behind Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 300,
+                                "y": 234,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "East Hallway 2F (LA)",
+                "access_rules": [
+                    "combatknife, spadekey"
+                ],
+                "children": [
+                    {
+                        "name": "Left of Art Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left of Art Room",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 316,
+                                "y": 174,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Fire Escape",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Fire Escape",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 369,
+                                "y": 254,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Art Room (LA)",
+                "access_rules": [
+                    "combatknife, spadekey"
+                ],
+                "children": [
+                    {
+                        "name": "Table near Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table near Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 343,
+                                "y": 198,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Statue",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 332,
+                                "y": 233,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Roof (LA)",
+                "access_rules": [
+                    "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle",
+                    "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, squarecrank"
+                ],
+                "children": [
+                    {
+                        "name": "Bench by Flaming Helicopter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bench by Flaming Helicopter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 412,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Room with Helicopter Crash",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Room with Helicopter Crash",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 424,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "name": "L B2 East",
+        "access_rules": [
+        "idwristband-visitor"
+        ],
+        "children": [
+            {
+                "name": "Lounge - Labs (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Down Ladder before Lounge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Down Ladder before Lounge",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 204,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Bench by Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bench by Entrance",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Table in Middle of Lounge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table in Middle of Lounge",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 365,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Benches across the Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Benches across the Room",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 210,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Server Room (LA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Left of Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left of Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 358,
+                                "y": 76,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "On Cart by Laptop",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Cart by Laptop",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 385,
+                                "y": 56,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Shelves left of Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves left of Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 365,
+                                "y": 26,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Low-Temp Testing Lab (LA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Table across from Robot Arm",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table across from Robot Arm",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 299,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }      
+        ] 
+    }
+]

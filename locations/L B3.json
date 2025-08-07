@@ -1,0 +1,168 @@
+[
+    {
+        "name": "L B3",
+        "access_rules": [
+        "signalmodulator, idwristband-seniorstaff"
+        ],
+        "children": [
+            {
+                "name": "Path to Super Tyrant (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Voice Call",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Voice Call",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 125,
+                                "y": 55,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Voice Call",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Voice Call",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 84,
+                                "y": 97,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Start of Ivy Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Start of Ivy Room",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 175,
+                                "y": 77,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Ladder at Mr X",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Ladder at Mr X",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 222,
+                                "y": 42,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Ladder at Mr X",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Ladder at Mr X",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 211,
+                                "y": 20,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Battle Items",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Battle Table Item 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Final Battle Table Item 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Final Battle by Item Box",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 298,
+                                "y": 113,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Hit on Super Tyrant",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Hit on Super Tyrant",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 315,
+                                "y": 158,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

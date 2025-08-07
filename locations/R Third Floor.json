@@ -1,0 +1,460 @@
+[
+    {
+        "name": "R Third Floor",
+        "access_rules": [
+        "combatknife"
+        ],
+        "children": [
+            {
+                "name": "West Hallway 3F (LA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Pallets",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pallets",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 160,
+                                "y": 109,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locked Locker (DCM)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locked Locker (DCM)",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 109,
+                                "y": 105,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 126,
+                                "y": 78,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Storage Room (LA)",
+                "access_rules": [
+                "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Furniture by Door",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Furniture by Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 144,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Floor by Furniture",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Floor by Furniture",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 46,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bookshelf",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bookshelf",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 187,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Side Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Side Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 70,
+                                "y": 207,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maiden Statue",
+                        "access_rules": [
+			"battery, electronicgadget"
+			],
+                        "sections": [
+                            {
+                                "name": "Maiden Statue",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 240,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Main Hall 3F (LA)",
+                "access_rules": [
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Outside Clock Tower Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside Clock Tower Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 192,
+                                "y": 282,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Clock Tower (LA)",
+                "access_rules": [
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Back Hallway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Back Hallway",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 31,
+                                "y": 191,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Upstairs Machine",
+                        "access_rules": [
+                        "unicornmedallion, lionmedallion, maidenmedallion, largegear" 
+			],
+                        "sections": [
+                            {
+                                "name": "Upstairs Machine",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 123,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use the Gears",
+                        "access_rules": [
+                        "unicornmedallion, lionmedallion, maidenmedallion, smallgear, largegear" 
+			],
+                        "sections": [
+                            {
+                                "name": "Use the Gears",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 157,
+                                "y": 257,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "East Storage Room (LA)",
+                "access_rules": [
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "North Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "North Shelves",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 334,
+                                "y": 123,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pallet",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pallet",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 332,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southeast Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Southeast Shelves",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 364,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Side Stairs (LA)",
+                "access_rules": [
+                "combatknife, spadekey, squarecrank",
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "3F By Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "3F By Stairs",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 412,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "South Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "South Locker",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 394,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "West Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "West Locker",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 378,
+                                "y": 127,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Balcony (LA)",
+                "access_rules": [
+                "combatknife, spadekey, squarecrank",
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 395,
+                                "y": 194,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

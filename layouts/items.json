@@ -1,0 +1,80 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-2,-2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
+				"combatknife",
+                                "spadekey",
+                                "diamondkey",
+                                "clubkey",
+                                "lionmedallion",
+   				"unicornmedallion",
+   				"maidenmedallion"
+                            ],
+                            [
+                                "smallgear",
+                                "largegear",
+                                "mechanicjackhandle",
+                                "squarecrank",
+				"boxedelectronicpart1",
+				"boxedelectronicpart2",
+                                "parkinggaragekeycard"
+                            ],
+                            [
+				"t-barhandle",
+                                "pawnplug",
+                                "knightplug",
+                                "bishopplug",
+                                "rookplug",
+                                "queenplug",
+                                "kingplug"
+                            ],
+                            [
+                                "idwristband-visitor",
+                                "idwristband-generalstaff",
+                                "idwristband-seniorstaff",
+                                "signalmodulator",
+                                "trophy",
+                                "dispersalcartridge-empty",
+                                "jointplug"
+                            ],
+                            [
+                                "boltcutters",
+                                "film-hidingplace",
+                                "weaponslockerkeycard",
+                                "sparekey",
+                                "battery",
+                                "electronicgadget"
+                            ],
+                            [
+                                "valvehandle",
+                                "redbook",
+                                "statueleftarm",
+                                "bejeweledbox",
+                                "carkey",
+                                "sewerskey",
+				"fuse-breakroomhallway"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

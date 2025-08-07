@@ -1,0 +1,278 @@
+[
+    {
+        "name": "S Upper",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Waterway Overpass (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 316,
+                                "y": 230,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Rook Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rook Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 282,
+                                "y": 171,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workers Break Room (LA)",
+                "access_rules": [
+		"sewerskey"
+		],
+                "children": [
+                    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 302,
+                                "y": 201,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "On Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 306,
+                                "y": 196,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Ride the Elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ride the Elevator",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 320,
+                                "y": 197,
+                                "size": 2
+                            },
+		            {
+                                "map": "UF Lower",
+                                "x": 394,
+                                "y": 161,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Water Injection Chamber (LA)",
+                "access_rules": [
+		"sewerskey"
+		],
+                "children": [
+                    {
+                        "name": "On Table 1&2",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Table 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+ 			    {
+                                "name": "On Table 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 299,
+                                "y": 132,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Control Room (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Chairs in Corner",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Chairs in Corner",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 184,
+                                "y": 138,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Locker (SZF)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker (SZF)",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 161,
+                                "y": 122,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workroom (LA)",
+                "access_rules": [
+		"sewerskey", "t-barhandle"
+		],
+                "children": [
+                    {
+                        "name": "Left Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 261,
+                                "y": 169,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Middle Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Middle Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 261,
+                                "y": 175,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Right Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 262,
+                                "y": 180,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

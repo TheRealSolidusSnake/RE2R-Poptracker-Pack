@@ -1,0 +1,410 @@
+[
+    {
+        "name": "S Middle",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Upper Waterway (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Trash by Wall of Water",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash by Wall of Water",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 261,
+                                "y": 301,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Trash beside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash beside Gate",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 353,
+                                "y": 220,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Waterway Overpass (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before the Waterslide",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before the Waterslide",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 381,
+                                "y": 177,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Monitor Room (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table with Raccoon Milk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Raccoon Milk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 121,
+                                "y": 161,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Rook Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rook Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 87,
+                                "y": 202,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "King Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "King Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 83,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Pawn Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pawn Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 91,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Treatment Pool Room (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 151,
+                                "y": 240,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Safe (2, 12, 8)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe (2, 12, 8)",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 162,
+                                "y": 244,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Cable Car",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Cable Car",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 166,
+                                "y": 174,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Cable Car Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cable Car Table",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 168,
+                                "y": 153,
+                                "size": 2
+                            }
+                        ]
+                    },
+                ]
+            },
+	    {
+                "name": "Main Power Room (LA)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Stairs after Chess Puzzle",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stairs after Chess Puzzle",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 101,
+                                "y": 245,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "By Railing",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Railing",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 115,
+                                "y": 264,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "By Power Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Power Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 110,
+                                "y": 312,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Proposed Water Purification Room (LA)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Pile of Metal",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pile of Metal",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 32,
+                                "y": 291,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Next to Crane Switch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Crane Switch",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 267,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "On Barrel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Barrel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 254,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Stabbed into Sack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stabbed into Sack",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 34,
+                                "y": 252,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

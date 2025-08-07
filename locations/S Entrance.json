@@ -1,0 +1,76 @@
+[
+    {
+        "name": "S Entrance",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Sewers Entrance (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "End of Third Hallway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "End of Third Hallway",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 257,
+                                "y": 130,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Barrels before Alligator Cutscene",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrels before Alligator Cutscene",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 191,
+                                "y": 65,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "After Alligator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Alligator",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 147,
+                                "y": 324,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

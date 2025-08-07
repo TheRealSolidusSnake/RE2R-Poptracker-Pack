@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Outside RPD",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "RPD Streets (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Just outside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Just outside Gate",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Outside RPD",
+                                "x": 136,
+                                "y": 334,
+                                "size": 2
+                            },
+                            {
+                                "map": "R Basement",
+                                "x": 199,
+                                "y": 117,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Gun Shop (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Long Shelves Left of Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Long Shelves Left of Entrance",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Outside RPD",
+                                "x": 203,
+                                "y": 223,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Short Shelves Left of Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short Shelves Left of Entrance",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Outside RPD",
+                                "x": 198,
+                                "y": 224,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shelves Back Left Corner",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves Back Left Corner",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Outside RPD",
+                                "x": 198,
+                                "y": 216,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

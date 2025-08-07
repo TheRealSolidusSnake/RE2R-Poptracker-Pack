@@ -1,0 +1,720 @@
+[
+    {
+        "name": "L B1",
+        "access_rules": [
+	"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+	],
+        "children": [
+            {
+                "name": "Cable Car Platform (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Ada's Wristband",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ada's Wristband",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 210,
+                                "y": 31,
+                                "size": 2
+                            },
+			    {
+                                "map": "S Middle",
+                                "x": 159,
+                                "y": 137,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Security Room (LA)",
+                "access_rules": [
+        	"idwristband-visitor"
+        	],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 280,
+                                "y": 92,
+                                "size": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Cafeteria (LA)",
+                "access_rules": [
+        	"idwristband-visitor"
+        	],
+                "children": [
+                    {
+                        "name": "Downed Zombie at Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie at Entrance",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 226,
+                                "y": 82,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Booth by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Booth by Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 214,
+                                "y": 77,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Coffee and Candy Counter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Coffee and Candy Counter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 209,
+                                "y": 84,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Kitchen (LA)",
+                "access_rules": [
+        	"idwristband-visitor"
+        	],
+                "children": [
+                    {
+                        "name": "On Bench",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Bench",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 202,
+                                "y": 72,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Near Sinks",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Near Sinks",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 202,
+                                "y": 80,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Nap Room (LA)",
+                "access_rules": [
+        	"idwristband-visitor"
+        	],
+                "children": [
+                    {
+                        "name": "Table with Lamp",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Lamp",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 175,
+                                "y": 95,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Sleeping Pod",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleeping Pod",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 174,
+                                "y": 90,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 172,
+                                "y": 95,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Sleeping Pod 2",
+                        "access_rules": [
+			"signalmodulator"
+			],
+                        "sections": [
+                            {
+                                "name": "Sleeping Pod 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 169,
+                                "y": 90,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Lobby (LA)",
+                "access_rules": [
+		"idwristband-generalstaff"
+		],
+                "children": [
+                    {
+                        "name": "Front Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Front Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 302,
+                                "y": 285,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Behind Front Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Behind Front Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 306,
+                                "y": 280,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Greenhouse Control Room (LA)",
+                "access_rules": [
+		"idwristband-generalstaff"
+		],
+                "children": [
+                    {
+                        "name": "Ivy Area before Control Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy Area before Control Room",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 315,
+                                "y": 256,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Middle Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Middle Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 338,
+                                "y": 260,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Dispersal Machine",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dispersal Machine",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 340,
+                                "y": 265,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Greenhouse (LA)",
+                "access_rules": [
+		"idwristband-generalstaff"
+		],
+                "children": [
+                    {
+                        "name": "Before Drug Testing Lab",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Drug Testing Lab",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 359,
+                                "y": 278,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Past Ladder",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Past Ladder",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 345,
+                                "y": 311,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Downed Employee",
+                        "access_rules": [
+			"signalmodulator, dispersalcartridge-empty"
+			],
+                        "sections": [
+                            {
+                                "name": "Downed Employee",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 332,
+                                "y": 290,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Drug Testing Lab (LA)",
+                "access_rules": [
+		"idwristband-generalstaff"
+		],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 363,
+                                "y": 256,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Downed Scientist",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Scientist",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 356,
+                                "y": 249,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Lobby Storage (LA)",
+                "access_rules": [
+		"idwristband-generalstaff"
+		],
+                "children": [
+                    {
+                        "name": "Boxes by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Door",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 303,
+                                "y": 322,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 296,
+                                "y": 322,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Signal Modulator Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Signal Modulator Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 291,
+                                "y": 319,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Biotesting Lab (LA)",
+                "access_rules": [
+		"idwristband-seniorstaff"
+		],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Downed Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 249,
+                                "y": 268,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Past Operating Area",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Past Operating Area",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 218,
+                                "y": 283,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Before Sanitation Spray",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Sanitation Spray",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 201,
+                                "y": 274,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "P-4 Level Testing Lab (LA)",
+                "access_rules": [
+		"idwristband-seniorstaff"
+		],
+                "children": [
+                    {
+                        "name": "Cart by Doorway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cart by Doorway",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 85,
+                                "y": 266,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 78,
+                                "y": 261,
+                                "size": 2
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Locker by Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker by Desk",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 78,
+                                "y": 257,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }      
+        ] 
+    }
+]

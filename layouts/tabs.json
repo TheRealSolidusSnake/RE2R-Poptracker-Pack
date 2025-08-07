@@ -1,0 +1,151 @@
+{
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "RPD",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "First Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": ["R First Floor"]
+                            }
+                        },
+                        {
+                            "title": "Second Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": ["R Second Floor"]
+                            }
+                        },
+                        {
+                            "title": "Third/Fourth Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": ["R Third Floor"]
+                            }
+                        },
+                        {
+                            "title": "Basement",
+                            "content": {
+                                "type": "map",
+                                "maps": ["R Basement"]
+                            }
+                        },
+                        {
+                            "title": "Outside RPD",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Outside RPD"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Underground Facility",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Upper",
+                            "content": {
+                                "type": "map",
+                                "maps": ["UF Upper"]
+                            }
+                        },
+                        {
+                            "title": "Middle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["UF Middle"]
+                            }
+                        },
+                        {
+                            "title": "Lower",
+                            "content": {
+                                "type": "map",
+                                "maps": ["UF Lower"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Sewers",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S Entrance"]
+                            }
+                        },
+                        {
+                            "title": "Upper",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S Upper"]
+                            }
+                        },
+                        {
+                            "title": "Middle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S Middle"]
+                            }
+                        },
+                        {
+                            "title": "Lower",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S Lower"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Laboratory",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "B1",
+                            "content": {
+                                "type": "map",
+                                "maps": ["L B1"]
+                            }
+                        },
+                        {
+                            "title": "B2 East",
+                            "content": {
+                                "type": "map",
+                                "maps": ["L B2 East"]
+                            }
+                        },
+                        {
+                            "title": "B2 West",
+                            "content": {
+                                "type": "map",
+                                "maps": ["L B2 West"]
+                            }
+                        },
+                        {
+                            "title": "B3",
+                            "content": {
+                                "type": "map",
+                                "maps": ["L B3"]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

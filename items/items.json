@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Spade Key",
+        "type": "toggle",
+        "img": "images/items/spade-key.png",
+        "img_mods": "",
+        "codes": "spadekey"
+    },
+    {
+        "name": "Club Key",
+        "type": "toggle",
+        "img": "images/items/club-key.png",
+        "img_mods": "",
+        "codes": "clubkey"
+    },
+    {
+        "name": "Diamond Key",
+        "type": "toggle",
+        "img": "images/items/diamond-key.png",
+        "img_mods": "",
+        "codes": "diamondkey"
+    },
+    {
+        "name": "Fuse - Break Room Hallway",
+        "type": "toggle",
+        "img": "images/items/fuse-break-roomhallway.png",
+        "img_mods": "",
+        "codes": "fuse-breakroomhallway"
+    },
+    {
+        "name": "Bolt Cutters",
+        "type": "toggle",
+        "img": "images/items/bolt-cutter.png",
+        "img_mods": "",
+        "codes": "boltcutters"
+    },
+    {
+        "name": "Valve Handle",
+        "type": "toggle",
+        "img": "images/items/valve-handle.png",
+        "img_mods": "",
+        "codes": "valvehandle"
+    },
+    {
+        "name": "Lion Medallion",
+        "type": "toggle",
+        "img": "images/items/lion-medallion.png",
+        "img_mods": "",
+        "codes": "lionmedallion"
+    },
+    {
+        "name": "Unicorn Medallion",
+        "type": "toggle",
+        "img": "images/items/unicorn-medallion.png",
+        "img_mods": "",
+        "codes": "unicornmedallion"
+    },
+    {
+        "name": "Maiden Medallion",
+        "type": "toggle",
+        "img": "images/items/maiden-medallion.png",
+        "img_mods": "",
+        "codes": "maidenmedallion"
+    },
+    {
+        "name": "Square Crank",
+        "type": "toggle",
+        "img": "images/items/square-crank.png",
+        "img_mods": "",
+        "codes": "squarecrank"
+    },
+    {
+        "name": "Mechanic Jack Handle",
+        "type": "toggle",
+        "img": "images/items/mechanic-jack-handle.png",
+        "img_mods": "",
+        "codes": "mechanicjackhandle"
+    },
+    {
+        "name": "Parking Garage Key Card",
+        "type": "toggle",
+        "img": "images/items/parking-garage-key-card.png",
+        "img_mods": "",
+        "codes": "parkinggaragekeycard"
+    },
+    {
+        "name": "T-Bar Handle",
+        "type": "toggle",
+        "img": "images/items/t-bar-handle.png",
+        "img_mods": "",
+        "codes": "t-barhandle"
+    },
+    {
+        "name": "Sewers Key",
+        "type": "toggle",
+        "img": "images/items/sewers-key.png",
+        "img_mods": "",
+        "codes": "sewerskey"
+    },
+    {
+        "name": "Pawn Plug",
+        "type": "toggle",
+        "img": "images/items/pawn-plug.png",
+        "img_mods": "",
+        "codes": "pawnplug"
+    },
+    {
+        "name": "Knight Plug",
+        "type": "toggle",
+        "img": "images/items/knight-plug.png",
+        "img_mods": "",
+        "codes": "knightplug"
+    },
+    {
+        "name": "Bishop Plug",
+        "type": "toggle",
+        "img": "images/items/bishop-plug.png",
+        "img_mods": "",
+        "codes": "bishopplug"
+    },
+    {
+        "name": "Rook Plug",
+        "type": "toggle",
+        "img": "images/items/rook-plug.png",
+        "img_mods": "",
+        "codes": "rookplug"
+    },
+    {
+        "name": "Queen Plug",
+        "type": "toggle",
+        "img": "images/items/queen-plug.png",
+        "img_mods": "",
+        "codes": "queenplug"
+    },
+    {
+        "name": "King Plug",
+        "type": "toggle",
+        "img": "images/items/king-plug.png",
+        "img_mods": "",
+        "codes": "kingplug"
+    },
+    {
+        "name": "ID Wristband - Visitor",
+        "type": "toggle",
+        "img": "images/items/id-wristband-visitor.png",
+        "img_mods": "",
+        "codes": "idwristband-visitor"
+    },
+    {
+        "name": "ID Wristband - General Staff",
+        "type": "toggle",
+        "img": "images/items/id-wristband-general-staff.png",
+        "img_mods": "",
+        "codes": "idwristband-generalstaff"
+    },
+    {
+        "name": "ID Wristband - Senior Staff",
+        "type": "toggle",
+        "img": "images/items/id-wristband-senior-staff.png",
+        "img_mods": "",
+        "codes": "idwristband-seniorstaff"
+    },
+    {
+        "name": "Trophy",
+        "type": "toggle",
+        "img": "images/items/trophy.png",
+        "img_mods": "",
+        "codes": "trophy"
+    },
+    {
+        "name": "Signal Modulator",
+        "type": "toggle",
+        "img": "images/items/signal-modulator.png",
+        "img_mods": "",
+        "codes": "signalmodulator"
+    },
+    {
+        "name": "Joint Plug",
+        "type": "toggle",
+        "img": "images/items/joint-plug.png",
+        "img_mods": "",
+        "codes": "jointplug"
+    },
+    {
+        "name": "Electronic Gadget",
+        "type": "toggle",
+        "img": "images/items/electronic-gadget.png",
+        "img_mods": "",
+        "codes": "electronicgadget"
+    },
+    {
+        "name": "Battery",
+        "type": "toggle",
+        "img": "images/items/battery.png",
+        "img_mods": "",
+        "codes": "battery"
+    },
+    {
+        "name": "Red Book",
+        "type": "toggle",
+        "img": "images/items/red-book.png",
+        "img_mods": "",
+        "codes": "redbook"
+    },
+    {
+        "name": "Statue Left Arm",
+        "type": "toggle",
+        "img": "images/items/statues-left-arm.png",
+        "img_mods": "",
+        "codes": "statueleftarm"
+    },
+    {
+        "name": "Bejeweled Box",
+        "type": "toggle",
+        "img": "images/items/bejeweled-box.png",
+        "img_mods": "",
+        "codes": "bejeweledbox"
+    },
+    {
+        "name": "Weapons Locker Key Card",
+        "type": "toggle",
+        "img": "images/items/weapons-locker-key-card.png",
+        "img_mods": "",
+        "codes": "weaponslockerkeycard"
+    },
+    {
+        "name": "Boxed Electronic Part 1",
+        "type": "toggle",
+        "img": "images/items/boxed-electronic-part.png",
+        "img_mods": "",
+        "codes": "boxedelectronicpart1"
+    },
+    {
+        "name": "Boxed Electronic Part 2",
+        "type": "toggle",
+        "img": "images/items/boxed-electronic-part.png",
+        "img_mods": "",
+        "codes": "boxedelectronicpart2"
+    },
+    {
+        "name": "Car Key",
+        "type": "toggle",
+        "img": "images/items/car-key.png",
+        "img_mods": "",
+        "codes": "carkey"
+    },
+    {
+        "name": "Large Gear",
+        "type": "toggle",
+        "img": "images/items/large-gear.png",
+        "img_mods": "",
+        "codes": "largegear"
+    },
+    {
+        "name": "Small Gear",
+        "type": "toggle",
+        "img": "images/items/small-gear.png",
+        "img_mods": "",
+        "codes": "smallgear"
+    },
+    {
+        "name": "Dispersal Cartridge - Empty",
+        "type": "toggle",
+        "img": "images/items/dispersal-cartridge-empty.png",
+        "img_mods": "",
+        "codes": "dispersalcartridge-empty"
+    },
+    {
+        "name": "Film - Commemorative",
+        "type": "toggle",
+        "img": "images/items/film-commemorative.png",
+        "img_mods": "",
+        "codes": "film-commemorative"
+    },
+    {
+        "name": "Film - 3F Locker",
+        "type": "toggle",
+        "img": "images/items/film-3f-locker.png",
+        "img_mods": "",
+        "codes": "film-3flocker"
+    },
+    {
+        "name": "Film - Hiding Place",
+        "type": "toggle",
+        "img": "images/items/film-hiding-place.png",
+        "img_mods": "",
+        "codes": "film-hidingplace"
+    },
+    {
+        "name": "Combat Knife",
+        "type": "toggle",
+        "img": "images/items/combat-knife.png",
+        "img_mods": "",
+        "codes": "combatknife"
+    },
+
+    {
+        "name": "Spare Key",
+        "type": "consumable",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "img": "images/items/spare-key.png",
+        "codes": "sparekey"
+    }
+]

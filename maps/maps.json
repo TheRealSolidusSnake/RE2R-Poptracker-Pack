@@ -1,0 +1,98 @@
+[
+    {
+        "name": "R First Floor",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/policestation1f.png"
+    },
+    {
+        "name": "R Second Floor",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/policestation2f.png"
+    },
+    {
+        "name": "R Third Floor",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/policestation3f.png"
+    },
+    {
+        "name": "R Basement",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/policestationb1.png"
+    },
+    {
+        "name": "Outside RPD",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/behindrpd.png"
+    },
+    {
+        "name": "UF Upper",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/undergroundfacilityupper.png"
+    },
+    {
+        "name": "UF Middle",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/undergroundfacilitymiddle.png"
+    },
+    {
+        "name": "UF Lower",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/undergroundfacilitylower.png"
+    },
+    {
+        "name": "S Entrance",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/sewerentrance.png"
+    },
+    {
+        "name": "S Upper",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/sewersupper.png"
+    },
+    {
+        "name": "S Middle",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/sewersmiddle.png"
+    },
+    {
+        "name": "S Lower",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/sewerslower.png"
+    },
+    {
+        "name": "L B1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/laboratoryb1.png"
+    },
+    {
+        "name": "L B2 East",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/laboratoryb2east.png"
+    },
+    {
+        "name": "L B2 West",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/laboratoryb2west.png"
+    },
+    {
+        "name": "L B3",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/laboratoryb3.png"
+    }
+]

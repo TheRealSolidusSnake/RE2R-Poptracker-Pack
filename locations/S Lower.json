@@ -1,0 +1,308 @@
+[
+    {
+        "name": "S Lower",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Lower Waterway (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Left Path",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Left Path",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 326,
+                                "y": 189,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Central Hub (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "On Boxes near Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Boxes near Stairs",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 300,
+                                "y": 200,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "On Ledge in Water by Trash",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Ledge in Water by Trash",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 279,
+                                "y": 175,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workroom (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Lift 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Lift 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 373,
+                                "y": 218,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Lift 2",
+                        "access_rules": [
+			"sewerskey", "t-barhandle"
+			],
+                        "sections": [
+                            {
+                                "name": "Before Lift 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 364,
+                                "y": 229,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Bottom Waterway (LA)",
+                "access_rules": [
+		"t-barhandle"
+		],
+                "children": [
+                    {
+                        "name": "Keys Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Keys Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 257,
+                                "y": 255,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Climb",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Climb",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 250,
+                                "y": 217,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Ledge after 2nd Mutant",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ledge after 2nd Mutant",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 161,
+                                "y": 249,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Supplies Storage Room (LA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 81,
+                                "y": 226,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Queen Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Queen Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 65,
+                                "y": 230,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "King Panel",
+                        "access_rules": [
+			"queenplug"
+			],
+                        "sections": [
+                            {
+                                "name": "King Panel",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 49,
+                                "y": 241,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Box Downstairs From King Plug",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Box Downstairs From King Plug",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 36,
+                                "y": 239,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Weapon Cage",
+                        "access_rules": [
+			"kingplug"
+			],
+                        "sections": [
+                            {
+                                "name": "Weapon Cage",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 81,
+                                "y": 233,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]
