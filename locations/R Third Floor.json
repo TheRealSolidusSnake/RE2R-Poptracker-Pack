@@ -294,11 +294,11 @@
                 ],
                 "children": [
                     {
-                        "name": "North Shelves",
+                        "name": "Shelves near Large Gear",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "North Shelves",
+                                "name": "Shelves near Large Gear",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
@@ -334,11 +334,11 @@
                         ]
                     },
                     {
-                        "name": "Southeast Shelves",
+                        "name": "Shelves near Heart Door",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Southeast Shelves",
+                                "name": "Shelves near Heart Door",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
@@ -457,4 +457,5 @@
             }     
         ] 
     }
+
 ]
