@@ -97,7 +97,8 @@
                                 "map": "R Basement",
                                 "x": 63,
                                 "y": 278,
-                                "size": 3
+                                "size": 5,
+				"shape": "diamond"
                             }
                         ]
                     },

@@ -124,9 +124,9 @@ LOCATION_MAPPING = {
 	[3000000122] = {"@R Third Floor/Side Stairs (LA)/3F By Stairs/3F By Stairs"},
 	[3000000123] = {"@R Third Floor/Side Stairs (LA)/South Locker/South Locker"},
 	[3000000124] = {"@R Third Floor/Side Stairs (LA)/West Locker/West Locker"},
-	[3000000125] = {"@R Third Floor/East Storage Room (LA)/North Shelves/Shelves near Large Gear"},
+	[3000000125] = {"@R Third Floor/East Storage Room (LA)/North Shelves/North Shelves"},
 	[3000000126] = {"@R Third Floor/East Storage Room (LA)/Pallet/Pallet"},
-	[3000000127] = {"@R Third Floor/East Storage Room (LA)/Southeast Shelves/Shelves near Heart Door"},
+	[3000000127] = {"@R Third Floor/East Storage Room (LA)/Southeast Shelves/Southeast Shelves"},
 	[3000000128] = {"@R Third Floor/Balcony (LA)/Table/Table"},
 	[3000000129] = {"@R Second Floor/Roof (LA)/Bench by Flaming Helicopter/Bench by Flaming Helicopter"},
 	[3000000130] = {"@R First Floor/Boiler Room (LA)/Outside by Stairs 1&2/Outside by Stairs 1"},
@@ -251,5 +251,4 @@ LOCATION_MAPPING = {
 	[3000000249] = {"@L B3/Path to Super Tyrant (LA)/Final Battle Items/Final Battle Table Item 2"},
 	[3000000250] = {"@L B3/Path to Super Tyrant (LA)/Final Battle Items/Final Battle by Item Box"},
 	[3000000251] = {"@L B3/Path to Super Tyrant (LA)/Final Hit on Super Tyrant/Final Hit on Super Tyrant"},
-
 }
