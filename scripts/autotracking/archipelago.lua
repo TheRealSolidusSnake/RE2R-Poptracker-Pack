@@ -8,6 +8,14 @@ CUR_INDEX = -1
 
 SLOT_DATA = {}
 
+local highlight_lvl= {
+    [0] = Highlight.Unspecified,
+    [10] = Highlight.NoPriority,
+    [20] = Highlight.Avoid,
+    [30] = Highlight.Priority,
+    [40] = Highlight.None,
+}
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
@@ -95,7 +103,7 @@ function onClear(slot_data)
                     item_obj.Active = false
                 elseif item_obj.Type == "progressive" then
                     item_obj.CurrentStage = 0
-                    item_obj.Active = false
+                    item_obj.CurrentStage = item_obj.CurrentStage + 1
                 elseif item_obj.Type == "consumable" then
                     if item_obj.MinCount then
                         item_obj.AcquiredCount = item_obj.MinCount
@@ -233,11 +241,7 @@ function onNotify(key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
-                end
+                updateHints(hint.location, hint.status)
             end
         end
     end
@@ -250,19 +254,24 @@ function onNotifyLaunch(key, value)
             -- print("hint", hint, hint.found)
             -- print(dump_table(hint))
             if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
-                end
+                updateHints(hint.location, hint.status)
             end
         end
     end
 end
 
-function updateHints(locationID, clear)
+function updateHints(locationID, status) -->
+    local location_table = LOCATION_MAPPING[locationID]
+    for _, location in ipairs(location_table) do
+        local obj = Tracker:FindObjectForCode(location)
+        if obj then
+            obj.Highlight = highlight_lvl[status]
+        else
+            print(string.format("No object found for code: %s", location))
+        end
+    end
     local item_codes = HINTS_MAPPING[locationID]
-
+    
     for _, item_table in ipairs(item_codes, clear) do
         for _, item_code in ipairs(item_table) do
             local obj = Tracker:FindObjectForCode(item_code)

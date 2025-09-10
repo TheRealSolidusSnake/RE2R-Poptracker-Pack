@@ -208,7 +208,7 @@
 	    {
                 "name": "Workroom (LA)",
                 "access_rules": [
-		"sewerskey", "t-barhandle"
+		"t-barhandle"
 		],
                 "children": [
                     {

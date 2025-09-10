@@ -1,4 +1,4 @@
-{
+﻿{
     "tracker_default": {
         "type": "container",
         "background": "#00000000",
@@ -19,25 +19,8 @@
                                 "type": "layout",
                                 "key": "shared_item_grid_vertical"
                             }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Pinned Locations",
-                            "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "vertical",
-                                "compact": true
-                            }
                         }
                     ]
-                },
-                {
-                    "type": "dock",
-                    "content": {
-                        "type": "layout",
-                        "key": "tabbed_maps_vertical"
-                    }
                 }
             ]
         }

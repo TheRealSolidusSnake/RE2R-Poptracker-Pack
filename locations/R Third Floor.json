@@ -218,12 +218,14 @@
 	    {
                 "name": "Clock Tower (LA)",
                 "access_rules": [
-                "combatknife, spadekey, mechanicjackhandle"
+                "combatknife, spadekey, mechanicjackhandle, [unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
                 ],
                 "children": [
                     {
                         "name": "Back Hallway",
-                        "access_rules": [],
+                        "access_rules": [
+                	"[unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
+                	],
                         "sections": [
                             {
                                 "name": "Back Hallway",
@@ -244,8 +246,8 @@
                     {
                         "name": "Upstairs Machine",
                         "access_rules": [
-                        "unicornmedallion, lionmedallion, maidenmedallion, largegear" 
-			],
+                	"unicornmedallion, lionmedallion, maidenmedallion, [smallgear], largegear",
+                	],
                         "sections": [
                             {
                                 "name": "Upstairs Machine",
@@ -266,8 +268,8 @@
                     {
                         "name": "Use the Gears",
                         "access_rules": [
-                        "unicornmedallion, lionmedallion, maidenmedallion, smallgear, largegear" 
-			],
+                	"unicornmedallion, lionmedallion, maidenmedallion, smallgear, largegear",
+                	],
                         "sections": [
                             {
                                 "name": "Use the Gears",
@@ -290,15 +292,16 @@
 	    {
                 "name": "East Storage Room (LA)",
                 "access_rules": [
-                "combatknife, spadekey, mechanicjackhandle"
+                "combatknife, spadekey, mechanicjackhandle",
+                "combatknife, spadekey, squarecrank"
                 ],
                 "children": [
                     {
-                        "name": "Shelves near Large Gear",
+                        "name": "North Shelves",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Shelves near Large Gear",
+                                "name": "North Shelves",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
@@ -334,11 +337,11 @@
                         ]
                     },
                     {
-                        "name": "Shelves near Heart Door",
+                        "name": "Southeast Shelves",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Shelves near Heart Door",
+                                "name": "Southeast Shelves",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
@@ -457,5 +460,4 @@
             }     
         ] 
     }
-
 ]

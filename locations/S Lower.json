@@ -104,7 +104,7 @@
 		    {
                         "name": "Before Lift 2",
                         "access_rules": [
-			"sewerskey", "t-barhandle"
+			"t-barhandle"
 			],
                         "sections": [
                             {
@@ -195,7 +195,9 @@
             },
 	    {
                 "name": "Supplies Storage Room (LA)",
-                "access_rules": [],
+                "access_rules": [
+		"t-barhandle"
+		],
                 "children": [
                     {
                         "name": "Shelves",

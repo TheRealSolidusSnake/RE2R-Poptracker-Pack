@@ -25,13 +25,15 @@
                                 "map": "L B1",
                                 "x": 210,
                                 "y": 31,
-                                "size": 2
+                                "size": 3,
+                                "shape": "diamond"
                             },
 			    {
                                 "map": "S Middle",
                                 "x": 159,
                                 "y": 137,
-                                "size": 5
+                                "size": 8,
+                                "shape": "diamond"
                             }
                         ]
                     }

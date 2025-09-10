@@ -69,7 +69,8 @@
                                 "map": "R First Floor",
                                 "x": 221,
                                 "y": 167,
-                                "size": 3
+                                "size": 7,
+				"shape": "diamond"
                             }
                         ]
                     }
