@@ -16,7 +16,7 @@
                             {
                                 "name": "Before Left Path",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "G-Adult before Workroom",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -63,7 +63,7 @@
                             {
                                 "name": "On Boxes near Stairs",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -83,7 +83,7 @@
                             {
                                 "name": "On Ledge in Water by Trash",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -103,7 +103,7 @@
                             {
                                 "name": "Blue Jumpsuit Short Hair Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -124,7 +124,7 @@
                             {
                                 "name": "Standing Overweight Vest Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -145,7 +145,7 @@
                             {
                                 "name": "Downed Overweight Vest Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -172,7 +172,7 @@
                             {
                                 "name": "Before Lift 1",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -194,7 +194,7 @@
                             {
                                 "name": "Before Lift 2",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -222,7 +222,7 @@
                             {
                                 "name": "Keys Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -242,7 +242,7 @@
                             {
                                 "name": "Before Climb",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -262,7 +262,7 @@
                             {
                                 "name": "Ledge after 2nd Mutant",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -282,7 +282,7 @@
                             {
                                 "name": "First G-Adult",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -303,7 +303,7 @@
                             {
                                 "name": "Second G-Adult",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -324,7 +324,7 @@
                             {
                                 "name": "Third G-Adult from sewer hole",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -345,7 +345,7 @@
                             {
                                 "name": "Fourth G-Adult before ladder",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -374,7 +374,7 @@
                             {
                                 "name": "Shelves",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -394,7 +394,7 @@
                             {
                                 "name": "Queen Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -416,7 +416,7 @@
                             {
                                 "name": "King Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -436,7 +436,7 @@
                             {
                                 "name": "Box Downstairs From King Plug",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -458,7 +458,7 @@
                             {
                                 "name": "Weapon Cage",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -480,7 +480,7 @@
                             {
                                 "name": "Zombie hanging near King Plug",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -495,7 +495,498 @@
                         ]
                     }
                 ]
-            }     
-        ] 
+            },
+			{
+                "name": "Lower Waterway (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Left Path",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Left Path",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 326,
+                                "y": 189,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "G-Adult before Workroom",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G-Adult before Workroom",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 346,
+                                "y": 201,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Central Hub (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "On Boxes near Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Boxes near Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 300,
+                                "y": 200,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "On Ledge in Water by Trash",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Ledge in Water by Trash",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 279,
+                                "y": 175,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Blue Jumpsuit Short Hair Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Blue Jumpsuit Short Hair Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 285,
+                                "y": 201,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Standing Overweight Vest Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Standing Overweight Vest Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 300,
+                                "y": 192,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Overweight Vest Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Overweight Vest Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 277,
+                                "y": 185,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workroom (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Lift 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Lift 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 373,
+                                "y": 218,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Lift 2",
+                        "access_rules": [
+			"t-barhandle"
+			],
+                        "sections": [
+                            {
+                                "name": "Before Lift 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 364,
+                                "y": 229,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Bottom Waterway (CB)",
+                "access_rules": [
+		"t-barhandle"
+		],
+                "children": [
+                    {
+                        "name": "Keys Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Keys Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 257,
+                                "y": 255,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Climb",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Climb",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 250,
+                                "y": 217,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ledge after 2nd Mutant",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ledge after 2nd Mutant",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 161,
+                                "y": 249,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "First G-Adult",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First G-Adult",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 191,
+                                "y": 245,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Second G-Adult",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Second G-Adult",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 159,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Third G-Adult from sewer hole",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Third G-Adult from sewer hole",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 135,
+                                "y": 219,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Fourth G-Adult before ladder",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Fourth G-Adult before ladder",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 266,
+                                "y": 223,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Supplies Storage Room (CB)",
+                "access_rules": [
+		"t-barhandle"
+		],
+                "children": [
+                    {
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 81,
+                                "y": 226,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Queen Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Queen Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 65,
+                                "y": 230,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "King Panel",
+                        "access_rules": [
+			"queenplug"
+			],
+                        "sections": [
+                            {
+                                "name": "King Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 49,
+                                "y": 241,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Box Downstairs From King Plug",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Box Downstairs From King Plug",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 36,
+                                "y": 239,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Weapon Cage",
+                        "access_rules": [
+						"kingplug"
+						],
+                        "sections": [
+                            {
+                                "name": "Weapon Cage",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 81,
+                                "y": 233,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie hanging near King Plug",
+                        "access_rules": [
+						"queenplug"
+						],
+                        "sections": [
+                            {
+                                "name": "Zombie hanging near King Plug",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 57,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

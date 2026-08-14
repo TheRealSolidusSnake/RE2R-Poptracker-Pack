@@ -16,13 +16,13 @@
                             {
                                 "name": "Table right of Elevator 1",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "Table right of Elevator 2",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -42,13 +42,13 @@
                             {
                                 "name": "First of Two Flashbangs",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "Second of Two Flashbangs",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -74,7 +74,7 @@
                             {
                                 "name": "1st Table left of Entrance",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -94,7 +94,7 @@
                             {
                                 "name": "2nd Table left of Entrance",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -114,7 +114,7 @@
                             {
                                 "name": "1st Table right of Entrance",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -134,7 +134,7 @@
                             {
                                 "name": "2nd Table right of Entrance",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -154,7 +154,7 @@
                             {
                                 "name": "Right Side of Room 1",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -174,7 +174,7 @@
                             {
                                 "name": "Right Side of Room 2",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -194,7 +194,7 @@
                             {
                                 "name": "G3 Boss Fight",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],

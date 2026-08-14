@@ -2,13 +2,13 @@
     {
         "name": "UF Middle",
         "access_rules": [
-        "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+        ""
         ],
         "children": [
             {
                 "name": "Underground Stairs (LA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -22,13 +22,13 @@
                                 "access_rules": [
 				"statueleftarm, redbook, bejeweledbox"
 				],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Underneath Staircase",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -46,7 +46,7 @@
             {
                 "name": "Machinery Room (LA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -58,13 +58,13 @@
                             {
                                 "name": "Locker",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Floor",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -82,7 +82,7 @@
             {
                 "name": "Operators Room (LA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -94,7 +94,7 @@
                             {
                                 "name": "Locker",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["leona, standard"],
                                 "item_count": 1
                             }
                         ],
@@ -112,7 +112,7 @@
 			{
                 "name": "Operators Room (LAH)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -124,7 +124,7 @@
                             {
                                 "name": "Locker",
                                 "access_rules": [],
-                                "visibility_rules": ["hardcore"],
+                                "visibility_rules": ["leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -138,7 +138,145 @@
                         ]
                     }
                 ]
-            }     
+            },
+{
+                "name": "Underground Stairs (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Underneath Staircase",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Cabinet",
+                                "access_rules": [
+				"statueleftarm, redbook, bejeweledbox"
+				],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Underneath Staircase",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Middle",
+                                "x": 357,
+                                "y": 86,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Machinery Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Staff Room",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Floor",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Middle",
+                                "x": 144,
+                                "y": 64,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operators Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Locker",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Middle",
+                                "x": 140,
+                                "y": 324,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Operators Room (LBH)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Locker",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Middle",
+                                "x": 140,
+                                "y": 324,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            }			
         ] 
     }
 ]

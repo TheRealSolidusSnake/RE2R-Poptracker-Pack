@@ -22,12 +22,11 @@
                         },
                         {
                             "type": "group",
-                            "header": "Pinned Locations",
+                            "header": "Settings",
+                            "dock": "top",
                             "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "vertical",
-                                "compact": true
+                                "type": "layout",
+                                "key": "setting_grid"
                             }
                         }
                     ]

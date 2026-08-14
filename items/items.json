@@ -293,6 +293,20 @@
         "img_mods": "",
         "codes": "film-hidingplace"
     },
+	{
+        "name": "Fuse - Main Hall",
+        "type": "toggle",
+        "img": "images/items/fuse-mainhall.png",
+        "img_mods": "",
+        "codes": "fuse-mainhall"
+    },
+	{
+        "name": "Courtyard Key",
+        "type": "toggle",
+        "img": "images/items/courtyard-key.png",
+        "img_mods": "",
+        "codes": "courtyardkey"
+    },
     {
         "name": "Combat Knife",
         "type": "toggle",
@@ -309,6 +323,20 @@
         "initial_quantity": 0,
         "img": "images/items/spare-key.png",
         "codes": "sparekey"
+    },
+	{
+        "name": "Leon A",
+        "type": "toggle",
+        "img": "images/items/leona.png",
+        "img_mods": "",
+        "codes": "leona"
+    },
+	{
+        "name": "Leon B",
+        "type": "toggle",
+        "img": "images/items/leonb.png",
+        "img_mods": "",
+        "codes": "leonb"
     },
 	{
         "name": "Standard",
@@ -330,5 +358,12 @@
         "img": "images/items/killchecks.png",
         "img_mods": "",
         "codes": "killchecks"
+    },
+    {
+        "name": "Auto Tab",
+        "type": "toggle",
+        "img": "images/items/autotab.png",
+        "codes": "autotab",
+        "initial_active_state": true
     }
 ]

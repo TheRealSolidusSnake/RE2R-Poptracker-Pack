@@ -2,11 +2,13 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/hints_mapping")
+require("scripts/autotracking/autotab_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
 
 SLOT_DATA = {}
+AUTOTAB_KEY = nil
 
 local highlight_lvl= {
     [0] = Highlight.Unspecified,
@@ -45,7 +47,87 @@ end
 
 function forceUpdate()
     local update = Tracker:FindObjectForCode("update")
-    update.Active = not update.Active
+    if update then
+        update.Active = not update.Active
+    end
+end
+
+-- Watched by onClearHandler; keep a real function so AddWatchForCode never errors.
+function StateChange(code)
+end
+
+local function resetMappedItem(item_code)
+    local item_obj = Tracker:FindObjectForCode(item_code)
+    if not item_obj then
+        return
+    end
+    if item_obj.Type == "toggle" then
+        item_obj.Active = false
+    elseif item_obj.Type == "progressive" then
+        item_obj.CurrentStage = 0
+        item_obj.CurrentStage = item_obj.CurrentStage + 1
+    elseif item_obj.Type == "consumable" then
+        if item_obj.MinCount then
+            item_obj.AcquiredCount = item_obj.MinCount
+        else
+            item_obj.AcquiredCount = 0
+        end
+    elseif item_obj.Type == "progressive_toggle" then
+        item_obj.CurrentStage = 0
+        item_obj.Active = false
+    end
+end
+
+local function optionEnabled(value)
+    if value == nil then
+        return false
+    end
+    if type(value) == "boolean" then
+        return value
+    end
+    if type(value) == "number" then
+        return value ~= 0
+    end
+    local s = string.lower(tostring(value))
+    return s ~= "" and s ~= "none" and s ~= "false" and s ~= "0" and s ~= "off"
+end
+
+local function setToggleActive(code, active)
+    local item = Tracker:FindObjectForCode(code)
+    if item then
+        item.Active = active and true or false
+    else
+        print(string.format("applySlotDataSettings: missing toggle '%s'", tostring(code)))
+    end
+end
+
+-- Fill difficulty / kill-check toggles from AP slot_data.
+function applySlotDataSettings(slot_data)
+    if not slot_data then
+        return
+    end
+
+    local difficulty = string.lower(tostring(slot_data.difficulty or ""))
+    local hardcore = difficulty == "hardcore"
+    -- Assisted uses the standard location set.
+    local standard = (not hardcore) and (
+        difficulty == "standard" or difficulty == "assisted" or difficulty == ""
+    )
+    local killsOn = optionEnabled(slot_data.add_enemy_kills_as_locations)
+        or optionEnabled(slot_data.enemy_kills)
+
+    setToggleActive("standard", standard)
+    setToggleActive("hardcore", hardcore)
+    setToggleActive("killchecks", killsOn)
+
+    print(string.format(
+        "slot_data settings: difficulty=%s standard=%s hardcore=%s killchecks=%s (raw kills=%s)",
+        tostring(slot_data.difficulty),
+        tostring(standard),
+        tostring(hardcore),
+        tostring(killsOn),
+        tostring(slot_data.add_enemy_kills_as_locations or slot_data.enemy_kills)
+    ))
 end
 
 function onClearHandler(slot_data)
@@ -62,10 +144,21 @@ function onClearHandler(slot_data)
         -- locations from AP have been processed.
         local handlerName = "AP onClearHandler"
         local function frameCallback()
-            ScriptHost:AddWatchForCode("StateChange", "*", StateChange)
             ScriptHost:RemoveOnFrameHandler(handlerName)
+            pcall(function()
+                ScriptHost:AddWatchForCode("StateChange", "*", StateChange)
+            end)
             Tracker.BulkUpdate = false
+            -- Re-apply after bulk update so visibility_rules refresh reliably.
+            applySlotDataSettings(SLOT_DATA)
             forceUpdate()
+            if _G.AUTOTAB_PENDING_ZONE then
+                applyAutoTab(_G.AUTOTAB_PENDING_ZONE)
+            end
+            if _G.AUTOTAB_NEED_REFRESH and AUTOTAB_KEY then
+                _G.AUTOTAB_NEED_REFRESH = false
+                Archipelago:Get({AUTOTAB_KEY})
+            end
             print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
         end
         ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
@@ -73,6 +166,10 @@ function onClearHandler(slot_data)
         Tracker.BulkUpdate = false
         print("Error: onClear failed:")
         print(err)
+        -- Still try to apply settings even if clear partially failed.
+        SLOT_DATA = slot_data or SLOT_DATA
+        applySlotDataSettings(SLOT_DATA)
+        forceUpdate()
     end
 end
 
@@ -95,24 +192,14 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, item_pair in pairs(ITEM_MAPPING) do
-        for item_type, item_code in pairs(item_pair) do
-            local item_obj = Tracker:FindObjectForCode(item_code)
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    item_obj.Active = false
-                elseif item_obj.Type == "progressive" then
-                    item_obj.CurrentStage = 0
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                elseif item_obj.Type == "consumable" then
-                    if item_obj.MinCount then
-                        item_obj.AcquiredCount = item_obj.MinCount
-                    else
-                        item_obj.AcquiredCount = 0
-                    end
-                elseif item_obj.Type == "progressive_toggle" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
+    -- ITEM_MAPPING entries look like: [id] = { {"code", "type"} }
+    for _, item_entry in pairs(ITEM_MAPPING) do
+        if type(item_entry[1]) == "string" then
+            resetMappedItem(item_entry[1])
+        else
+            for _, mapping in ipairs(item_entry) do
+                if type(mapping) == "table" and type(mapping[1]) == "string" then
+                    resetMappedItem(mapping[1])
                 end
             end
         end
@@ -120,15 +207,21 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
+    applySlotDataSettings(slot_data)
     -- print(PLAYER_ID, TEAM_NUMBER)
     if Archipelago.PlayerNumber > -1 then
+        -- Enable Auto Tab BEFORE Get/SetNotify (Retrieved can fire during Get).
+        local autotabItem = Tracker:FindObjectForCode("autotab")
+        if autotabItem then
+            autotabItem.Active = true
+        end
 
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+        AUTOTAB_KEY = PLAYER_ID .. "-re2r-currentMap"
+        Archipelago:SetNotify({HINTS_ID, AUTOTAB_KEY})
+        Archipelago:Get({HINTS_ID, AUTOTAB_KEY})
+        -- ActivateTab during BulkUpdate is unreliable; re-Get after the frame callback.
+        _G.AUTOTAB_NEED_REFRESH = true
     end
 end
 
@@ -245,6 +338,10 @@ function onNotify(key, value, old_value)
             end
         end
     end
+
+    if key == AUTOTAB_KEY then
+        applyAutoTab(value)
+    end
 end
 
 function onNotifyLaunch(key, value)
@@ -258,6 +355,77 @@ function onNotifyLaunch(key, value)
             end
         end
     end
+
+    if key == AUTOTAB_KEY then
+        applyAutoTab(value)
+    end
+end
+
+function onBounce(message)
+    print("onBounce", dump_table(message))
+    if type(message) ~= "table" then
+        return
+    end
+    local data = message.data
+    if type(data) ~= "table" then
+        data = message
+    end
+    if type(data) == "table" and data.re2r_map then
+        print("autotab: bounce zone=" .. tostring(data.re2r_map))
+        applyAutoTab(data.re2r_map)
+    end
+end
+
+function applyAutoTab(zone)
+    if zone == nil or zone == "" then
+        return
+    end
+
+    if type(zone) == "table" then
+        zone = zone.value or zone[1] or zone
+    end
+    zone = tostring(zone)
+    zone = zone:match("^([^#]+)") or zone
+
+    local autotabItem = Tracker:FindObjectForCode("autotab")
+    if autotabItem and not autotabItem.Active then
+        print("autotab: skipped (toggle off)")
+        return
+    end
+
+    if Tracker.BulkUpdate then
+        print("autotab: defer during BulkUpdate zone=" .. zone)
+        _G.AUTOTAB_PENDING_ZONE = zone
+        return
+    end
+
+    local tabs = AUTOTAB_MAPPING[zone]
+    if not tabs then
+        print("autotab: unknown zone " .. zone)
+        return
+    end
+
+    for _, tabName in ipairs(tabs) do
+        print("autotab: ActivateTab " .. tabName)
+        Tracker:UiHint("ActivateTab", tabName)
+    end
+    _G.AUTOTAB_PENDING_ZONE = nil
+end
+
+local _autotabPollAt = 0
+local function autotabFrameHandler()
+    if not AUTOTAB_KEY or Archipelago.PlayerNumber == nil or Archipelago.PlayerNumber < 0 then
+        return
+    end
+    local now = os.clock()
+    if now - _autotabPollAt < 2.5 then
+        return
+    end
+    _autotabPollAt = now
+    if _G.AUTOTAB_PENDING_ZONE and not Tracker.BulkUpdate then
+        applyAutoTab(_G.AUTOTAB_PENDING_ZONE)
+    end
+    Archipelago:Get({AUTOTAB_KEY})
 end
 
 function updateHints(locationID, status) -->
@@ -296,6 +464,9 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddBouncedHandler("autotab bounce handler", onBounce)
+ScriptHost:AddOnFrameHandler("autotab poll", autotabFrameHandler)
+print("autotab: handlers registered (SetReply + Bounce + poll)")
 
 
 

@@ -16,7 +16,7 @@
                             {
                                 "name": "Downed Zombie",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -29,14 +29,14 @@
                             }
                         ]
                     },
-		    {
+					{
                         "name": "Rook Panel",
                         "access_rules": [],
                         "sections": [
                             {
                                 "name": "Rook Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -56,7 +56,7 @@
                             {
                                 "name": "Blue Jumpsuit Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -77,7 +77,7 @@
                             {
                                 "name": "Overweight Vest Zombie at bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -98,7 +98,7 @@
                             {
                                 "name": "Gray Zombie across bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -148,7 +148,7 @@
                             {
                                 "name": "Locker",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -168,7 +168,7 @@
                             {
                                 "name": "On Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -188,7 +188,7 @@
                             {
                                 "name": "Ride the Elevator",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -222,7 +222,7 @@
                             {
                                 "name": "Left Side of Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
 						],
@@ -242,7 +242,7 @@
                             {
                                 "name": "Right Side of Table",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["leona, standard"],
                                 "item_count": 1
                             },
 						],
@@ -270,7 +270,7 @@
                             {
                                 "name": "Right side of Table",
                                 "access_rules": [],
-                                "visibility_rules": ["hardcore"],
+                                "visibility_rules": ["leona, hardcore"],
                                 "item_count": 1
                             },
 						],
@@ -296,7 +296,7 @@
                             {
                                 "name": "Chairs in Corner",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -316,7 +316,7 @@
                             {
                                 "name": "Locker (SZF)",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -331,12 +331,12 @@
                     }
                 ]
             },
-	    {
-                "name": "Workroom (LA)",
-                "access_rules": [
-		"t-barhandle"
-		],
-                "children": [
+			{
+					"name": "Workroom (LA)",
+					"access_rules": [
+						"t-barhandle"
+						],
+					"children": [
                     {
                         "name": "Left Table",
                         "access_rules": [],
@@ -344,7 +344,7 @@
                             {
                                 "name": "Left Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -357,14 +357,14 @@
                             }
                         ]
                     },
-		    {
+					{
                         "name": "Middle Table",
                         "access_rules": [],
                         "sections": [
                             {
                                 "name": "Middle Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -377,14 +377,14 @@
                             }
                         ]
                     },
-		    {
+					{
                         "name": "Right Table",
                         "access_rules": [],
                         "sections": [
                             {
                                 "name": "Right Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -404,7 +404,422 @@
                             {
                                 "name": "Downed Plain Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 262,
+                                "y": 171,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Waterway Overpass (LB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 316,
+                                "y": 230,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Rook Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rook Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 282,
+                                "y": 171,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Blue Jumpsuit Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Blue Jumpsuit Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 296,
+                                "y": 174,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Vest Zombie at bridge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Vest Zombie at bridge",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 287,
+                                "y": 169,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Gray Zombie across bridge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Gray Zombie across bridge",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 289,
+                                "y": 144,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Hanging Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Hanging Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdated"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 297,
+                                "y": 186,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workers Break Room (LB)",
+                "access_rules": [
+		"sewerskey"
+		],
+                "children": [
+                    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 302,
+                                "y": 201,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "On Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 306,
+                                "y": 196,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Ride the Elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ride the Elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 320,
+                                "y": 197,
+                                "size": 2
+                            },
+		            {
+                                "map": "UF Lower",
+                                "x": 394,
+                                "y": 161,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Water Injection Chamber (LB)",
+					"access_rules": [
+						"sewerskey"
+					],
+                "children": [
+                    {
+                        "name": "Left Side of Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Side of Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+						],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 295,
+                                "y": 132,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Right Side of Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right Side of Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard"],
+                                "item_count": 1
+                            },
+						],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 299,
+                                "y": 132,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Water Injection Chamber (LBH)",
+					"access_rules": [
+						"sewerskey"
+					],
+                "children": [
+                    {
+                        "name": "Right side of Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right side of Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, hardcore"],
+                                "item_count": 1
+                            },
+						],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 299,
+                                "y": 132,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Control Room (LB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Chairs in Corner",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Chairs in Corner",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 184,
+                                "y": 138,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Locker (SZF)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker (SZF)",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 161,
+                                "y": 122,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Workroom (LB)",
+                "access_rules": [
+		"t-barhandle"
+		],
+                "children": [
+                    {
+                        "name": "Left Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 261,
+                                "y": 169,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Middle Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Middle Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 261,
+                                "y": 175,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Right Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 262,
+                                "y": 180,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Plain Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Plain Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
                                 "item_count": 1
                             }
                         ],

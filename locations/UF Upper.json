@@ -2,13 +2,13 @@
     {
         "name": "UF Upper",
         "access_rules": [
-        "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+        ""
         ],
         "children": [
             {
                 "name": "Secret Room (LA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -20,7 +20,7 @@
                             {
                                 "name": "Left of Entrance",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -40,7 +40,7 @@
                             {
                                 "name": "Desk",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["leona, standard"],
                                 "item_count": 1
                             }
                         ],
@@ -58,7 +58,7 @@
 			{
                 "name": "Secret Room (LAH)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -68,7 +68,87 @@
                             {
                                 "name": "Desk",
                                 "access_rules": [],
-                                "visibility_rules": ["hardcore"],
+                                "visibility_rules": ["leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Upper",
+                                "x": 204,
+                                "y": 148,
+                                "size": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Secret Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Left of Entrance",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Left of Entrance",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Upper",
+                                "x": 176,
+                                "y": 166,
+                                "size": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Upper",
+                                "x": 204,
+                                "y": 148,
+                                "size": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Secret Room (LBH)",
+                "access_rules": [
+                    "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],

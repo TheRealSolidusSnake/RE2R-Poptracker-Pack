@@ -16,7 +16,7 @@
                             {
                                 "name": "After Elevator 1",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "After Elevator 2",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -56,7 +56,7 @@
                             {
                                 "name": "Start of Ivy Room",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -76,7 +76,7 @@
                             {
                                 "name": "Before Ladder on Ground",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -96,7 +96,7 @@
                             {
                                 "name": "After Ladder on Ground",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -116,7 +116,7 @@
                             {
                                 "name": "Final Battle by Item Box",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -136,7 +136,7 @@
                             {
                                 "name": "Turntable Control Room",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -156,7 +156,7 @@
                             {
                                 "name": "Inside Turntable",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -197,7 +197,7 @@
                             {
                                 "name": "Ivy 1 after elevator",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -218,7 +218,7 @@
                             {
                                 "name": "Ivy 2 after elevator",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -239,7 +239,7 @@
                             {
                                 "name": "Falling Ivy 1",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -260,7 +260,7 @@
                             {
                                 "name": "Falling Ivy 2",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -281,7 +281,7 @@
                             {
                                 "name": "That Random Escape Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -297,12 +297,12 @@
                     },
 					{
                         "name": "G4 Boss Fight",
-                        "access_rules": [],
+                        "access_rules": ["jointplug"],
                         "sections": [
                             {
                                 "name": "G4 Boss Fight",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -320,6 +320,345 @@
             },
 			{
                 "name": "Path to G4 (CAH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Boxes by Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 142,
+                                "y": 127,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Path to G4 (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "After Elevator 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Elevator 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 125,
+                                "y": 55,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Elevator 2",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Elevator 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 84,
+                                "y": 97,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Start of Ivy Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Start of Ivy Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 175,
+                                "y": 77,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Ladder on Ground",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Ladder on Ground",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 222,
+                                "y": 42,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Ladder on Ground",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Ladder on Ground",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 211,
+                                "y": 20,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Battle by Item Box",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Battle by Item Box",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 319,
+                                "y": 229,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Turntable Control Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Turntable Control Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 320,
+                                "y": 333,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inside Turntable",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Inside Turntable",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 341,
+                                "y": 288,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 3 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 3 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 173,
+                                "y": 95,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 1 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 1 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 205,
+                                "y": 99,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 2 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 2 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 203,
+                                "y": 55,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Falling Ivy 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Falling Ivy 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 227,
+                                "y": 34,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Falling Ivy 2",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Falling Ivy 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 213,
+                                "y": 31,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "That Random Escape Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "That Random Escape Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 326,
+                                "y": 104,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "G4 Boss Fight",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "G4 Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 327,
+                                "y": 302,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Path to G4 (CBH)",
                 "access_rules": [],
                 "children": [
                     {

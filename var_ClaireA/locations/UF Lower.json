@@ -1,14 +1,12 @@
 [
     {
         "name": "UF Lower",
-        "access_rules": [
-        "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
-        ],
+        "access_rules": [],
         "children": [
             {
                 "name": "Machinery Room (CA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -20,19 +18,19 @@
                             {
                                 "name": "On Tarped Machinery",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "Near Tarped Machinery",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "On Containers near Tarped Machinery",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -52,13 +50,13 @@
                             {
                                 "name": "On Barrel by Steamy Machinery",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
                             {
                                 "name": "On Pallets near Steamy Machinery",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -78,13 +76,13 @@
                             {
                                 "name": "Barrel by Forklift",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Boxes by Forklift",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -104,7 +102,7 @@
                             {
                                 "name": "G1 Boss Fight",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -119,7 +117,123 @@
                         ]
                     }
                 ]
-            }     
-        ] 
+            },
+			{
+                "name": "Machinery Room (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Tarped Machinery",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "On Tarped Machinery",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Near Tarped Machinery",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "On Containers near Tarped Machinery",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Lower",
+                                "x": 64,
+                                "y": 134,
+                                "size": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Steamy Machinery",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Barrel by Steamy Machinery",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "On Pallets near Steamy Machinery",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Lower",
+                                "x": 35,
+                                "y": 234,
+                                "size": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Forklift",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrel by Forklift",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Boxes by Forklift",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Lower",
+                                "x": 174,
+                                "y": 222,
+                                "size": 5
+                            }
+                        ]
+                    },
+					{
+                        "name": "G1 Boss Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G1 Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Lower",
+                                "x": 103,
+                                "y": 174,
+                                "size": 5,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

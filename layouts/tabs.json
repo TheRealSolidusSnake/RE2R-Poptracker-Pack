@@ -51,21 +51,21 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Upper",
+                            "title": "UF Upper",
                             "content": {
                                 "type": "map",
                                 "maps": ["UF Upper"]
                             }
                         },
                         {
-                            "title": "Middle",
+                            "title": "UF Middle",
                             "content": {
                                 "type": "map",
                                 "maps": ["UF Middle"]
                             }
                         },
                         {
-                            "title": "Lower",
+                            "title": "UF Lower",
                             "content": {
                                 "type": "map",
                                 "maps": ["UF Lower"]
@@ -87,21 +87,21 @@
                             }
                         },
                         {
-                            "title": "Upper",
+                            "title": "S Upper",
                             "content": {
                                 "type": "map",
                                 "maps": ["S Upper"]
                             }
                         },
                         {
-                            "title": "Middle",
+                            "title": "S Middle",
                             "content": {
                                 "type": "map",
                                 "maps": ["S Middle"]
                             }
                         },
                         {
-                            "title": "Lower",
+                            "title": "S Lower",
                             "content": {
                                 "type": "map",
                                 "maps": ["S Lower"]
@@ -141,6 +141,14 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["L B3"]
+                            }
+                        }
+						,
+                        {
+                            "title": "Train",
+                            "content": {
+                                "type": "map",
+                                "maps": ["L Train"]
                             }
                         }
                     ]

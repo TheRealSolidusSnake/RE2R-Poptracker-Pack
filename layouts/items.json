@@ -18,11 +18,6 @@
                         "item_height": 64,
                         "item_width": 64,
                         "rows": [
-							[
-								"standard",
-								"hardcore",
-								"killchecks"
-							],
                             [
 								"combatknife",
                                 "spadekey",
@@ -74,10 +69,40 @@
                                 "bejeweledbox",
                                 "carkey",
                                 "sewerskey",
-								"fuse-breakroomhallway"
-                            ]
+                            ],
+							[
+								"courtyardkey",
+								"fuse-mainhall"
+							]
                         ]
                     }
+                ]
+            }
+        ]
+    },
+    "setting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "item_height": 96,
+                "item_width": 96,
+                "rows": [
+                    [
+						"leonA",
+						"leonB",
+					],
+					[
+                        "standard",
+                        "hardcore",
+					],
+					[
+                        "killchecks",
+                        "autotab"
+                    ]
                 ]
             }
         ]

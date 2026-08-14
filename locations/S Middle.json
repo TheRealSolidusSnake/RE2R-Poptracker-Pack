@@ -16,7 +16,7 @@
                             {
                                 "name": "Trash by Wall of Water",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "Trash beside Gate",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -56,19 +56,19 @@
                             {
                                 "name": "White shirt Female Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             },
 							{
                                 "name": "Dark shirt Female Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             },
 							{
                                 "name": "Dark Jumpsuit Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -95,7 +95,7 @@
                             {
                                 "name": "Before the Waterslide",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -121,7 +121,7 @@
                             {
                                 "name": "Table with Raccoon Milk",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["leona, standard"],
                                 "item_count": 1
                             }
                         ],
@@ -141,7 +141,7 @@
                             {
                                 "name": "Rook Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -161,7 +161,7 @@
                             {
                                 "name": "King Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -181,7 +181,7 @@
                             {
                                 "name": "Pawn Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -207,7 +207,7 @@
                             {
                                 "name": "Table with Raccoon Milk",
                                 "access_rules": [],
-                                "visibility_rules": ["hardcore"],
+                                "visibility_rules": ["leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -233,7 +233,7 @@
                             {
                                 "name": "Trash Can before G2 Fight",
                                 "access_rules": [],
-                                "visibility_rules": ["hardcore"],
+                                "visibility_rules": ["leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -259,7 +259,7 @@
                             {
                                 "name": "Downed Zombie",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -279,7 +279,7 @@
                             {
                                 "name": "Sitting Plain Zombie by safe",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -300,7 +300,7 @@
                             {
                                 "name": "Safe (2, 12, 8)",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -320,7 +320,7 @@
                             {
                                 "name": "Before Cable Car",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -340,7 +340,7 @@
                             {
                                 "name": "Cable Car Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -368,7 +368,7 @@
                             {
                                 "name": "Stairs after Chess Puzzle",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -388,7 +388,7 @@
                             {
                                 "name": "By Railing",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -408,7 +408,7 @@
                             {
                                 "name": "By Power Panel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -436,7 +436,7 @@
                             {
                                 "name": "Pile of Metal",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -456,7 +456,7 @@
                             {
                                 "name": "Next to Crane Switch",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -476,7 +476,7 @@
                             {
                                 "name": "On Barrel",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -496,7 +496,7 @@
                             {
                                 "name": "Stabbed into Sack",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -516,7 +516,7 @@
                             {
                                 "name": "G2 Boss Fight",
                                 "access_rules": [],
-                                "visibility_rules": ["killchecks"],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
