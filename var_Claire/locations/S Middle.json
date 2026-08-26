@@ -7,7 +7,7 @@
         "children": [
             {
                 "name": "Upper Waterway (CA)",
-                "access_rules": [],
+                "access_rules": ["t-barhandle"],
                 "children": [
                     {
                         "name": "Trash by Wall of Water",
@@ -78,7 +78,7 @@
                 "children": [
                     {
                         "name": "Before the Waterslide",
-                        "access_rules": [],
+                        "access_rules": ["t-barhandle"],
                         "sections": [
                             {
                                 "name": "Before the Waterslide",
@@ -600,7 +600,7 @@
             },
 			{
                 "name": "Upper Waterway (CB)",
-                "access_rules": [],
+                "access_rules": ["t-barhandle"],
                 "children": [
                     {
                         "name": "Trash by Wall of Water",
@@ -667,7 +667,7 @@
             },
 	    {
                 "name": "Waterway Overpass (CB)",
-                "access_rules": [],
+                "access_rules": ["t-barhandle"],
                 "children": [
                     {
                         "name": "Before the Waterslide",

@@ -425,7 +425,35 @@
                     }
                 ]
             },
-	    {
+			{
+                "name": "Main Shaft (LB)",
+                "access_rules": [
+				"idwristband-generalstaff"
+				],
+                "children": [
+                    {
+                        "name": "Next to Soldier",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Soldier",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 263,
+                                "y": 125,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
                 "name": "Lobby (LA)",
                 "access_rules": [
 		"idwristband-generalstaff"
@@ -2002,26 +2030,6 @@
                             }
                         ]
                     },
-	 	    {
-                        "name": "Signal Modulator Panel",
-                        "access_rules": [],
-                        "sections": [
-                            {
-                                "name": "Signal Modulator Panel",
-                                "access_rules": [],
-                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "L B1",
-                                "x": 291,
-                                "y": 319,
-                                "size": 2
-                            }
-                        ]
-                    },
 					{
                         "name": "Storage Stairs",
                         "access_rules": [],
@@ -2090,7 +2098,7 @@
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Downed Zombie",
+                                "name": "Downed Zombie 1",
                                 "access_rules": [],
                                 "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1

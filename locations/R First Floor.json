@@ -2597,6 +2597,10 @@
                 ],
 				"children": [
 					{
+						"name": "Second Stall",
+						"access_rules": [
+							""
+							],
 						"sections": [
 							{
 								"name": "Second Stall",
@@ -3384,26 +3388,6 @@
                                 "map": "R First Floor",
                                 "x": 410,
                                 "y": 220,
-                                "size": 3
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Garbage beside Door",
-                        "access_rules": [],
-                        "sections": [
-                            {
-                                "name": "Garbage beside Door",
-                                "access_rules": [],
-                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "R First Floor",
-                                "x": 398,
-                                "y": 225,
                                 "size": 3
                             }
                         ]

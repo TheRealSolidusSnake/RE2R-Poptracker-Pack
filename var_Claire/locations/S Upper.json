@@ -56,7 +56,7 @@
                             {
                                 "name": "Blue Jumpsuit Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -77,7 +77,7 @@
                             {
                                 "name": "Overweight Vest Zombie at bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -98,7 +98,7 @@
                             {
                                 "name": "Gray Zombie across bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "visibility_rules": ["clairea, killchecks"],
                                 "item_count": 1
                             }
                         ],
@@ -534,7 +534,7 @@
                             {
                                 "name": "Blue Jumpsuit Zombie",
                                 "access_rules": [],
-                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "visibility_rules": ["claireb, killchecksb"],
                                 "item_count": 1
                             }
                         ],
@@ -555,7 +555,7 @@
                             {
                                 "name": "Overweight Vest Zombie at bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "visibility_rules": ["claireb, killchecksb"],
                                 "item_count": 1
                             }
                         ],
@@ -576,7 +576,7 @@
                             {
                                 "name": "Gray Zombie across bridge",
                                 "access_rules": [],
-                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "visibility_rules": ["claireb, killchecksb"],
                                 "item_count": 1
                             }
                         ],

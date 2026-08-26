@@ -454,13 +454,13 @@
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Final Battle Table Item 1",
+                                "name": "Final Battle Table Item",
                                 "access_rules": [],
                                 "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             },
 			    {
-                                "name": "Final Battle Table Item 2",
+                                "name": "Final Battle Barrel Item",
                                 "access_rules": [],
                                 "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1

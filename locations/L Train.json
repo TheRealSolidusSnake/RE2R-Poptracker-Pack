@@ -16,7 +16,7 @@
                             {
                                 "name": "Box by Door",
                                 "access_rules": [],
-                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "On Floor by Barrels",
                                 "access_rules": [],
-                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -54,9 +54,9 @@
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Start of Ivy Room",
+                                "name": "Stabbed into Cargo",
                                 "access_rules": [],
-                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -76,7 +76,7 @@
                             {
                                 "name": "Victory",
                                 "access_rules": [],
-                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],

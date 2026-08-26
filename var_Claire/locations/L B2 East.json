@@ -341,26 +341,6 @@
                             }
                         ]
                     },
-		    {
-                        "name": "Table in Middle of Lounge",
-                        "access_rules": [],
-                        "sections": [
-                            {
-                                "name": "Table in Middle of Lounge",
-                                "access_rules": [],
-                                "visibility_rules": ["claireb, standard"],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "L B2 East",
-                                "x": 365,
-                                "y": 192,
-                                "size": 3
-                            }
-                        ]
-                    },
 					{
                         "name": "Benches across the Room",
                         "access_rules": [],
@@ -533,6 +513,26 @@
                                 "map": "L B2 East",
                                 "x": 299,
                                 "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Table near Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table near Entrance",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 221,
+                                "y": 292,
                                 "size": 3
                             }
                         ]

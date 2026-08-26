@@ -1611,6 +1611,34 @@
                 ]
             },
 			{
+                "name": "Main Shaft (CB)",
+                "access_rules": [
+				"idwristband-generalstaff"
+				],
+                "children": [
+                    {
+                        "name": "Next to Soldier",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Soldier",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B1",
+                                "x": 263,
+                                "y": 125,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
                 "name": "Lobby (CB)",
                 "access_rules": [
 				"idwristband-generalstaff"
@@ -2082,26 +2110,6 @@
                                 "map": "L B1",
                                 "x": 296,
                                 "y": 322,
-                                "size": 2
-                            }
-                        ]
-                    },
-					{
-                        "name": "Signal Modulator Panel",
-                        "access_rules": [],
-                        "sections": [
-                            {
-                                "name": "Signal Modulator Panel",
-                                "access_rules": [],
-                                "visibility_rules": ["claireb, standard"],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "L B1",
-                                "x": 291,
-                                "y": 319,
                                 "size": 2
                             }
                         ]
