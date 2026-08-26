@@ -2,6 +2,7 @@ ITEM_MAPPING = {
 	[3000001500] = {{"spadekey", "toggle"}},
 	[3000000501] = {{"clubkey", "toggle"}},
 	[3000001502] = {{"diamondkey", "toggle"}},
+	[3000001503] = {{"courtyardkey", "toggle"}},
 	[3000001504] = {{"fuse-mainhall", "toggle"}},
 	[3000001505] = {{"fuse-breakroomhallway", "toggle"}},
 	[3000001506] = {{"boltcutters", "toggle"}},
