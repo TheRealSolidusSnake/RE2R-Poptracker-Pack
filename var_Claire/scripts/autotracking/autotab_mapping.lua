@@ -26,4 +26,5 @@ AUTOTAB_MAPPING = {
     ["lab_b2_east"] = { "Laboratory", "B2 East" },
     ["lab_b2_west"] = { "Laboratory", "B2 West" },
     ["lab_b3"] = { "Laboratory", "B3" },
+    ["lab_b4"] = { "Laboratory", "Train" },
 }

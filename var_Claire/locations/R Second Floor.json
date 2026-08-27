@@ -833,7 +833,7 @@
                 "name": "Chiefs Office (CA)",
                 "access_rules": [
                     "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey", 
-					"combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"
+					"combatknife, spadekey, mechanicjackhandle, heartkey"
                 ],
                 "children": [
 					{
@@ -881,7 +881,7 @@
 			{
                 "name": "Private Collection Room (CA)",
                 "access_rules": [
-                    "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey",
+                    "combatknife, spadekey, mechanicjackhandle, heartkey",
                     "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey"
                 ],
                 "children": [
@@ -951,7 +951,7 @@
 			{
                 "name": "Private Collection Room (CAH)",
                 "access_rules": [
-                    "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey",
+                    "combatknife, spadekey, mechanicjackhandle, heartkey",
                     "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey"
                 ],
                 "children": [
@@ -1865,9 +1865,9 @@
                 "name": "Chiefs Office (CB)",
                 "access_rules": [
                     "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+					"courtyardkey, boltcutters, fuse-mainhall, heartkey, mechanicjackhandle",
 					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+					"courtyardkey, spadekey, heartkey, mechanicjackhandle"
                 ],
                 "children": [
 					{
@@ -1916,9 +1916,9 @@
                 "name": "Private Collection Room (CB)",
                 "access_rules": [
                     "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+					"courtyardkey, boltcutters, fuse-mainhall, heartkey, mechanicjackhandle",
 					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+					"courtyardkey, spadekey, heartkey, mechanicjackhandle"
                 ],
                 "children": [
                     {
@@ -1928,7 +1928,7 @@
                             {
                                 "name": "Display Cabinet",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["claireb, standard"],
                                 "item_count": 1
                             }
                         ],
@@ -1988,9 +1988,9 @@
                 "name": "Private Collection Room (CBH)",
                 "access_rules": [
                     "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+					"courtyardkey, boltcutters, fuse-mainhall, heartkey, mechanicjackhandle",
 					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, diamondkey",
-					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+					"courtyardkey, spadekey, heartkey, mechanicjackhandle"
                 ],
                 "children": [
                     {

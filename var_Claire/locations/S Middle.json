@@ -702,7 +702,7 @@
                             {
                                 "name": "Table with Raccoon Milk",
                                 "access_rules": [],
-                                "visibility_rules": ["standard"],
+                                "visibility_rules": ["claireb, standard"],
                                 "item_count": 1
                             }
                         ],
