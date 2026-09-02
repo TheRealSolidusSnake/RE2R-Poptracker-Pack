@@ -1,0 +1,594 @@
+[
+    {
+        "name": "L B2 East",
+        "access_rules": [
+        "idwristband-visitor"
+        ],
+        "children": [
+            {
+                "name": "Lounge - Labs (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Down Ladder before Lounge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Down Ladder before Lounge",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 204,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Bench by Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bench by Entrance",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Table in Middle of Lounge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table in Middle of Lounge",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 365,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Benches across the Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Benches across the Room",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 210,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Very Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Jumpsuit Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 387,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Lickers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker from ceiling 1",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Licker from ceiling 2",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 186,
+                                "y": 202,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Server Room (CA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Left of Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left of Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 358,
+                                "y": 76,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "On Cart by Laptop",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Cart by Laptop",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 385,
+                                "y": 56,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Shelves left of Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves left of Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 365,
+                                "y": 26,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Low-Temp Testing Lab (CA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Table across from Robot Arm",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table across from Robot Arm",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 299,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Resting Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Resting Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 265,
+                                "y": 377,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Lobby Storage (CA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Lab Coat Zombie at bottom of stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Lab Coat Zombie at bottom of stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 41,
+                                "y": 225,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Lounge - Labs (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Down Ladder before Lounge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Down Ladder before Lounge",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 204,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Bench by Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bench by Entrance",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Benches across the Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Benches across the Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 339,
+                                "y": 210,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Very Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Jumpsuit Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 387,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Lickers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker from ceiling 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Licker from ceiling 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 186,
+                                "y": 202,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Server Room (CB)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Left of Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left of Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 358,
+                                "y": 76,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "On Cart by Laptop",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Cart by Laptop",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 385,
+                                "y": 56,
+                                "size": 3
+                            }
+                        ]
+                    },
+	 	    {
+                        "name": "Shelves left of Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves left of Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 365,
+                                "y": 26,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Low-Temp Testing Lab (CB)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Table across from Robot Arm",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table across from Robot Arm",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 299,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Table near Entrance",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table near Entrance",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 221,
+                                "y": 292,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Resting Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Resting Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 265,
+                                "y": 377,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Lobby Storage (CB)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Lab Coat Zombie at bottom of stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Lab Coat Zombie at bottom of stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 41,
+                                "y": 225,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ] 
+    }
+]

@@ -1,0 +1,620 @@
+[
+    {
+        "name": "R Streets",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "RPD Streets (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Just outside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Just outside Gate",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 136,
+                                "y": 334,
+                                "size": 2
+                            },
+                            {
+                                "map": "R Basement",
+                                "x": 199,
+                                "y": 117,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Alleyway Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Plaid shirt Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Zombie that knocks fence down",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 191,
+                                "y": 232,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie after alley stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 296,
+                                "y": 184,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog on white car",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog on white car",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 238,
+                                "y": 152,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Dog eating corpse",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie Dog eating corpse",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 269,
+                                "y": 150,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog 1 jumping fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog 1 jumping fence",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 267,
+                                "y": 112,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog 2 jumping fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog 2 jumping fence",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 267,
+                                "y": 102,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Dog after Basketball Court",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie Dog after Basketball Court",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 246,
+                                "y": 93,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie on bus",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie on bus",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 252,
+                                "y": 58,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Final Zombie Dog before Orphanage",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Zombie Dog before Orphanage",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 243,
+                                "y": 38,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Basketball Court (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Benches",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Bench",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Second Bench",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 305,
+                                "y": 108,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Outside Area North (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Debris by Bus",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Debris",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 227,
+                                "y": 89,
+                                "size": 3
+                            }
+                        ]
+                    },
+					                    {
+                        "name": "Bus Seat",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bus Seat",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 252,
+                                "y": 64,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "RPD Streets (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Just outside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Just outside Gate",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 136,
+                                "y": 334,
+                                "size": 2
+                            },
+                            {
+                                "map": "R Basement",
+                                "x": 199,
+                                "y": 117,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Alleyway Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Plaid shirt Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Zombie that knocks fence down",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 191,
+                                "y": 232,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie after alley stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 296,
+                                "y": 184,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog on white car",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog on white car",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 238,
+                                "y": 152,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Dog eating corpse",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie Dog eating corpse",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 269,
+                                "y": 150,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog 1 jumping fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog 1 jumping fence",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 267,
+                                "y": 112,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog 2 jumping fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog 2 jumping fence",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 267,
+                                "y": 102,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Dog after Basketball Court",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie Dog after Basketball Court",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 246,
+                                "y": 93,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie on bus",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie on bus",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 252,
+                                "y": 58,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Final Zombie Dog before Orphanage",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Zombie Dog before Orphanage",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 243,
+                                "y": 38,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Basketball Court (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Benches",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Bench",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Second Bench",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 305,
+                                "y": 108,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Outside Area North (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Debris by Bus",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Debris",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 227,
+                                "y": 89,
+                                "size": 3
+                            }
+                        ]
+                    },
+					                    {
+                        "name": "Bus Seat",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bus Seat",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Streets",
+                                "x": 252,
+                                "y": 64,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ] 
+    }
+]

@@ -24,7 +24,7 @@
         "img": "images/maps/policestationb1.png"
     },
     {
-        "name": "Outside RPD",
+        "name": "R Streets",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/behindrpd.png"
@@ -46,6 +46,24 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/undergroundfacilitylower.png"
+    },
+	{
+        "name": "O 1F",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/orphanage1f.png"
+    },
+	{
+        "name": "O 2F",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/orphanage2f.png"
+    },
+	{
+        "name": "O B1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/orphanageb1.png"
     },
     {
         "name": "S Entrance",
@@ -94,5 +112,11 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/laboratoryb3.png"
+    },
+    {
+        "name": "L Train",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/laboratoryb4train.png"
     }
 ]

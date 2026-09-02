@@ -1,0 +1,96 @@
+[
+    {
+        "name": "L Train",
+        "access_rules": [
+        "signalmodulator, idwristband-seniorstaff, jointplug"
+        ],
+        "children": [
+            {
+                "name": "G5 Ending (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Box by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Box by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L Train",
+                                "x": 323,
+                                "y": 185,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Floor by Barrels",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Floor by Barrels",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L Train",
+                                "x": 284,
+                                "y": 172,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stabbed into Cargo",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stabbed into Cargo",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L Train",
+                                "x": 290,
+                                "y": 185,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "G5",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Victory",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L Train",
+                                "x": 202,
+                                "y": 178,
+                                "size": 2
+                            }
+                        ]
+                    }
+				]
+			}
+		]
+    }
+]

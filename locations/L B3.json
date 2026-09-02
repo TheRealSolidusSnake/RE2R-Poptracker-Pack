@@ -16,7 +16,7 @@
                             {
                                 "name": "Before Voice Call",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "After Voice Call",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -56,7 +56,7 @@
                             {
                                 "name": "Start of Ivy Room",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -76,7 +76,7 @@
                             {
                                 "name": "Before Ladder at Mr X",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -96,7 +96,7 @@
                             {
                                 "name": "After Ladder at Mr X",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -116,19 +116,359 @@
                             {
                                 "name": "Final Battle Table Item 1",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "Final Battle Table Item 2",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
 			    {
                                 "name": "Final Battle by Item Box",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 298,
+                                "y": 113,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Hit on Super Tyrant",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "Final Hit on Super Tyrant",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 315,
+                                "y": 158,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 1 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 1 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 173,
+                                "y": 95,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 2 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 2 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 205,
+                                "y": 99,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 3 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 3 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 203,
+                                "y": 55,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "That Random Escape Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "That Random Escape Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 296,
+                                "y": 29,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Super Tyrant Boss Fight",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "Super Tyrant Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 314,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "Rocket Target Practice Zombie 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 4",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 5",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 6",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 326,
+                                "y": 213,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Path to Super Tyrant (LAH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Boxes by Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 142,
+                                "y": 127,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Path to Super Tyrant (LB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before Voice Call",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Voice Call",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 125,
+                                "y": 55,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Voice Call",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Voice Call",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 84,
+                                "y": 97,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Start of Ivy Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Start of Ivy Room",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 175,
+                                "y": 77,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Ladder at Mr X",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Ladder at Mr X",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 222,
+                                "y": 42,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Ladder at Mr X",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Ladder at Mr X",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 211,
+                                "y": 20,
+                                "size": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Final Battle Items",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Final Battle Table Item",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Final Battle Barrel Item",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Final Battle by Item Box",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -148,7 +488,7 @@
                             {
                                 "name": "Final Hit on Super Tyrant",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -157,6 +497,188 @@
                                 "map": "L B3",
                                 "x": 315,
                                 "y": 158,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 1 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 1 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 173,
+                                "y": 95,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 2 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 2 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 205,
+                                "y": 99,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Ivy 3 after elevator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Ivy 3 after elevator",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 203,
+                                "y": 55,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "That Random Escape Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "That Random Escape Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 296,
+                                "y": 29,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Super Tyrant Boss Fight",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "Super Tyrant Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 314,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": ["jointplug"],
+                        "sections": [
+                            {
+                                "name": "Rocket Target Practice Zombie 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 4",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 5",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Rocket Target Practice Zombie 6",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 326,
+                                "y": 213,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Path to Super Tyrant (LBH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Boxes by Typewriter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Typewriter",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B3",
+                                "x": 142,
+                                "y": 127,
                                 "size": 2
                             }
                         ]

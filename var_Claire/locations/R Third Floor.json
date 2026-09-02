@@ -1,0 +1,1356 @@
+[
+    {
+        "name": "R Third Floor",
+        "access_rules": [
+        ""
+        ],
+        "children": [
+            {
+                "name": "West Hallway 3F (CA)",
+                "access_rules": [
+                    "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Pallets",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pallets",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 160,
+                                "y": 109,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie at top of Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at top of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 147,
+                                "y": 77,
+                                "size": 3,
+								"shape": "trapezoid"
+                            },
+                            {
+                                "map": "R Second Floor",
+                                "x": 131,
+                                "y": 91,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker (DCM)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker (DCM)",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 109,
+                                "y": 105,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 126,
+                                "y": 78,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Storage Room (CA)",
+                "access_rules": [
+                "combatknife"
+                ],
+                "children": [
+                    {
+                        "name": "Furniture by Door",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Furniture by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 144,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Floor by Furniture",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Floor by Furniture",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 46,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bookshelf",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bookshelf",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 187,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Side Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Side Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 70,
+                                "y": 207,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Hanging Zombie After It Drops",
+                        "access_rules": ["[battery], [electronicgadget]"],
+                        "sections": [
+                            {
+                                "name": "Hanging Zombie After It Drops",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 173,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Explosion Loving Licker",
+                        "access_rules": ["battery, electronicgadget"],
+                        "sections": [
+                            {
+                                "name": "Explosion Loving Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 45,
+                                "y": 211,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Licker inside West Storage Room",
+                        "access_rules": ["unicornmedallion, lionmedallion, maidenmedallion, mechanicjackhandle, heartkey", "unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey"],
+                        "sections": [
+                            {
+                                "name": "Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 55,
+                                "y": 162,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maiden Statue",
+                        "access_rules": [
+			"battery, electronicgadget"
+			],
+                        "sections": [
+                            {
+                                "name": "Maiden Statue",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 240,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Main Hall 3F (CA)",
+                "access_rules": [
+                "combatknife, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Outside Clock Tower Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside Clock Tower Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 192,
+                                "y": 282,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Plain Clothes Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 209,
+                                "y": 267,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Police Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 225,
+                                "y": 265,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Clock Tower (CA)",
+                "access_rules": [
+                "combatknife, mechanicjackhandle, [unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
+                ],
+                "children": [
+                    {
+                        "name": "Back Hallway",
+                        "access_rules": [
+                	"[unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
+                	],
+                        "sections": [
+                            {
+                                "name": "Back Hallway",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 31,
+                                "y": 191,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Upstairs Machine",
+                        "access_rules": [
+                	"unicornmedallion, lionmedallion, maidenmedallion, [smallgear], largegear",
+                	],
+                        "sections": [
+                            {
+                                "name": "Upstairs Machine",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 123,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use the Gears",
+                        "access_rules": [
+                	"unicornmedallion, lionmedallion, maidenmedallion, smallgear, largegear",
+                	],
+                        "sections": [
+                            {
+                                "name": "Use the Gears",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 157,
+                                "y": 257,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "East Storage Room (CA)",
+                "access_rules": [
+                "combatknife, mechanicjackhandle",
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey"
+                ],
+                "children": [
+                    {
+                        "name": "North Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "North Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 334,
+                                "y": 123,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pallet",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pallet",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 332,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Dark Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dark Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 342,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Short-Haired Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short-Haired Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 303,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southeast Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Southeast Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 364,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Small Storage Room (CA)",
+                "access_rules": [
+                "combatknife, mechanicjackhandle, heartkey",
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey"
+                ],
+                "children": [
+                    {
+                        "name": "Mannequin",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Mannequin",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 348,
+                                "y": 178,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 350,
+                                "y": 199,
+                                "size": 3
+                            }
+                        ]
+                    }                    
+                ]
+            },
+            {
+                "name": "Side Stairs (CA)",
+                "access_rules": [
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey",
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "3F By Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "3F By Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 412,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "South Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "South Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 394,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "West Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "West Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 378,
+                                "y": 127,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Balcony (CA)",
+                "access_rules": [
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey",
+                "combatknife, spadekey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 395,
+                                "y": 194,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "West Hallway 3F (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey",
+				"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Pallets",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pallets",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 160,
+                                "y": 109,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie at top of Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at top of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 147,
+                                "y": 77,
+                                "size": 3,
+								"shape": "trapezoid"
+                            },
+                            {
+                                "map": "R Second Floor",
+                                "x": 131,
+                                "y": 91,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker (DCM)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker (DCM)",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 109,
+                                "y": 105,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 126,
+                                "y": 78,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Storage Room (CB)",
+                "access_rules": [
+				"courtyardkey, spadekey",
+				"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Furniture by Door",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Furniture by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 144,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Floor by Furniture",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Floor by Furniture",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 46,
+                                "y": 166,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bookshelf",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bookshelf",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 41,
+                                "y": 187,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Hanging Zombie After It Drops",
+                        "access_rules": ["[battery], [electronicgadget]"],
+                        "sections": [
+                            {
+                                "name": "Hanging Zombie After It Drops",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 173,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Explosion Loving Licker",
+                        "access_rules": ["battery, electronicgadget"],
+                        "sections": [
+                            {
+                                "name": "Explosion Loving Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 45,
+                                "y": 211,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Licker inside West Storage Room",
+                        "access_rules": ["unicornmedallion, lionmedallion, maidenmedallion, mechanicjackhandle, heartkey", "unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey"],
+                        "sections": [
+                            {
+                                "name": "Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 55,
+                                "y": 162,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maiden Statue",
+                        "access_rules": [
+			"battery, electronicgadget"
+			],
+                        "sections": [
+                            {
+                                "name": "Maiden Statue",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 240,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Main Hall 3F (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Outside Clock Tower Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside Clock Tower Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 192,
+                                "y": 282,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Plain Clothes Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 209,
+                                "y": 267,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Police Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 225,
+                                "y": 265,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Clock Tower (CB)",
+                "access_rules": [
+				"courtyardkey, spadekey, mechanicjackhandle, [unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle, [unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]"
+                ],
+                "children": [
+                    {
+                        "name": "Back Hallway",
+                        "access_rules": [
+                	"[unicornmedallion], [lionmedallion], [maidenmedallion], [smallgear], [largegear]",
+                	],
+                        "sections": [
+                            {
+                                "name": "Back Hallway",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 31,
+                                "y": 191,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Upstairs Machine",
+                        "access_rules": [
+                	"unicornmedallion, lionmedallion, maidenmedallion, [smallgear], largegear",
+                	],
+                        "sections": [
+                            {
+                                "name": "Upstairs Machine",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 123,
+                                "y": 300,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Use the Gears",
+                        "access_rules": [
+                	"unicornmedallion, lionmedallion, maidenmedallion, smallgear, largegear",
+                	],
+                        "sections": [
+                            {
+                                "name": "Use the Gears",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 157,
+                                "y": 257,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "East Storage Room (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "North Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "North Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 334,
+                                "y": 123,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pallet",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pallet",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 332,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Dark Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dark Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 342,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Short-Haired Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short-Haired Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 303,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southeast Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Southeast Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 364,
+                                "y": 152,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Small Storage Room (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle, heartkey",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle, heartkey",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Mannequin",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Mannequin",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 348,
+                                "y": 178,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 350,
+                                "y": 199,
+                                "size": 3
+                            }
+                        ]
+                    }                    
+                ]
+            },
+            {
+                "name": "Side Stairs (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "3F By Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "3F By Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 412,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "South Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "South Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 394,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    },
+		    {
+                        "name": "West Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "West Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 378,
+                                "y": 127,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Balcony (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 395,
+                                "y": 194,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ] 
+    }
+]

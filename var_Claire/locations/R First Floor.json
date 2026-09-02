@@ -1,0 +1,3992 @@
+[
+    {
+        "name": "R First Floor",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Main Hall (CA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Beside Main Desk",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Beside Main Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 241,
+                                "y": 221,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Main Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Main Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            },
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 233,
+                                "y": 202,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marvins Knife",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Marvins Knife",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 221,
+                                "y": 167,
+                                "size": 7,
+								"shape": "diamond"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Marvin",
+                        "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                        "sections": [
+                            {
+                                "name": "Zombie Marvin",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 231,
+                                "y": 167,
+                                "size": 5,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Main Hall (CAH)",
+					"access_rules": [
+						" "
+					],
+					"children": [
+					{
+						"name": "Main Desk",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Main Desk",
+								"access_rules": [],
+								"visibility_rules": ["clairea, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 233,
+                                "y": 202,
+                                "size": 3
+                            }
+						]
+					},
+				],
+			},
+            {
+                "name": "East Hallway 1F Closet (CA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Closet",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Shelves",
+								"access_rules": [],
+								"visibility_rules": ["clairea, standard", "clairea, hardcore"],
+								"item_count": 1
+							},
+					{
+								"name": "Boxes",
+								"access_rules": [],
+								"visibility_rules": ["clairea, standard", "clairea, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 296,
+								"y": 152,
+								"size": 3
+							}
+						]
+					},
+					                    {
+                        "name": "Zombies",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Blonde Zombie",
+								"access_rules": [],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							},
+							{
+								"name": "Dark-Haired Zombie",
+								"access_rules": [],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							},
+							{
+								"name": "Overweight Zombie",
+								"access_rules": [],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 293,
+								"y": 163,
+								"size": 3,
+								"shape": "trapezoid"
+							}
+						]
+					},
+                ]
+            },			
+			{
+					"name": "Watchman's Room (CA)",
+					"access_rules": [
+						" "
+					],
+					"children": [
+					{
+						"name": "Zombie",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Police Zombie at Elliot",
+								"access_rules": [],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 389,
+								"y": 211,
+								"size": 5,
+								"shape": "trapezoid"
+							}
+						]
+					},
+				],
+			},
+			{
+                "name": "East Hallway 1F (CA)",
+                "access_rules": [
+                    " "
+                ],
+				"children": [
+					{
+						"name": "Window",
+						"access_rules": [
+							" "
+						],
+						"sections": [
+							{
+								"name": "Zombie from Elliots Window",
+								"access_rules": [],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							},
+							{
+								"name": "Female Zombie from window",
+								"access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+								"visibility_rules": ["clairea, killchecks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 366,
+								"y": 232,
+								"size": 5,
+								"shape": "trapezoid"
+							}
+						]
+					},
+				],
+            },
+            {
+                "name": "Press Room (CA)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 332,
+                                "y": 129,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Plaid Shirt Zombie",
+                        "access_rules": [
+                            "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plaid Shirt Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 342,
+                                "y": 126,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hiding Place Drawer",
+                        "access_rules": [
+			"combatknife, film-hidingplace"
+			],
+                        "sections": [
+                            {
+                                "name": "Hiding Place Drawer",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 311,
+                                "y": 114,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bathroom (CA)",
+                "access_rules": [
+                    " "
+                ],
+				"children": [
+                    {
+						"name": "Second Stall",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Second Stall",
+								"access_rules": [],
+								"visibility_rules": ["clairea, standard", "clairea, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 379,
+								"y": 164,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+            {
+                "name": "RPD Reception (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "Boxes",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boxes",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 173,
+                                "y": 213,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Couch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Couch",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 166,
+                                "y": 223,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Southwest Hallway (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "South Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie from first Window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 36,
+                                "y": 220,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Center Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie from mid Window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 36,
+                                "y": 164,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Roaming in Center",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Jumpsuit Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 47,
+                                "y": 154,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Roaming in North",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 62,
+                                "y": 78,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "North Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "First Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Second Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 48,
+                                "y": 70,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Licker at start of hallway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker at start of hallway",
+                                "access_rules": ["lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 102,
+                                "y": 220,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operations Room (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+				"children": [
+					{
+								"name": "Side Table",
+								"access_rules": [
+									" "
+								],
+								"sections": [
+							{
+								"name": "Side Table",
+								"access_rules": [],
+								"visibility_rules": ["clairea, standard", "clairea, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 90,
+								"y": 95,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+            {
+                "name": "West Hallway 1F (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "Back of Hallway",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Back of Hallway",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 105,
+                                "y": 87,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Vending Machines",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 99,
+                                "y": 172,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Outside West Office",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Zombie Playing Dead",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 117,
+                                "y": 162,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Licker outside West Office",
+                        "access_rules": [
+                            "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Licker outside West Office",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 137,
+                                "y": 156,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Zombie from Window at Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "2nd Zombie at Stairs",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 141,
+                                "y": 70,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Outside Darkroom",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside Darkroom 1",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Outside Darkroom 2",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 167,
+                                "y": 90,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Safety Deposit Room (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "Lockers",
+                        "access_rules": [],
+                        "sections": [
+			    {
+                                "name": "Locker 106",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 109",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Locker 102",
+                                "access_rules": [
+        			"sparekey"
+        			],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 208",
+                                "access_rules": [
+        			"sparekey"
+        			],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 103",
+                                "access_rules": [
+        			"sparekey: 2"
+        			],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 203",
+                                "access_rules": [
+        			"sparekey: 2"
+        			],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 124,
+                                "y": 126,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weapons Locker",
+                        "access_rules": [
+                        "weaponslockerkeycard, combatknife"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Weapon",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Ammo",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 128,
+                                "y": 80,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Office (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "Desk by Lockers",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Desk by Lockers",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 126,
+                                "y": 184,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 113,
+                                "y": 198,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 113,
+                                "y": 218,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rookie Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rookie Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 157,
+                                "y": 185,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sleeping Desk Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleeping Desk Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 130,
+                                "y": 176,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sitting Zombie near Safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Zombie near Safe",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 134,
+                                "y": 221,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Darkroom (CA)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+                    {
+                        "name": "Left Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 157,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Right Locker",
+                        "access_rules": [],
+                        "sections": [
+							{
+                                "name": "Right Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 163,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Photo Area",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Photo Area",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 156,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Darkroom (CAH)",
+                "access_rules": [
+        	"combatknife"
+        	],
+                "children": [
+					{
+                        "name": "Right Locker",
+                        "access_rules": [],
+                        "sections": [
+							{
+                                "name": "Right Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 163,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fire Escape (CA)",
+                "access_rules": [
+        	"combatknife, spadekey"
+        	],
+                "children": [
+                    {
+                        "name": "Bottom of Stairs",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bottom of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 425,
+                                "y": 232,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Barrel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 410,
+                                "y": 220,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Garbage beside Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Garbage beside Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 398,
+                                "y": 225,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "East Office (CA)",
+                "access_rules": [
+        	"boltcutters"
+        	],
+                "children": [
+                    {
+                        "name": "Table by Door",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 351,
+                                "y": 225,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Wandering Zombie",
+								"access_rules": [],
+								"visibility_rules": ["killchecksupdate"],
+								"item_count": 1
+							},
+							{
+								"name": "Window Zombie",
+								"access_rules": [],
+								"visibility_rules": ["killchecksupdate"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 328,
+								"y": 210,
+								"size": 3,
+								"shape": "trapezoid"
+							}
+						]
+					},
+					{
+                        "name": "West Window",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Jumpsuit Zombie from office or window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 306,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk by Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk by Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 326,
+                                "y": 224,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 331,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Middle of Long Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Middle of Long Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 331,
+                                "y": 196,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "End of Long Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "End of Long Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 302,
+                                "y": 204,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Office Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 295,
+                                "y": 226,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Office Furniture",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Furniture",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 284,
+                                "y": 226,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "East Office (CAH)",
+					"access_rules": [
+						"boltcutters"
+					],
+					"children": [
+					{
+						"name": "Table by Door",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Table by Door",
+								"access_rules": [],
+								"visibility_rules": ["clairea, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 351,
+                                "y": 225,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+            {
+                "name": "Operations Room 2 (CA)",
+                "access_rules": [
+                "combatknife, boltcutters"
+                ],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 58,
+                                "y": 146,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cabinets",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cabinets",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 76,
+                                "y": 139,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 86,
+                                "y": 146,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Heart Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Heart Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 76,
+                                "y": 162,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Side Stairs (CA)",
+                "access_rules": [
+                "combatknife, spadekey, mechanicjackhandle",
+				"combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Locker near Observation Room",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker near Observation Room",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 301,
+                                "y": 135,
+                                "size": 3
+                            }
+                        ]
+                    },
+					                    {
+                        "name": "Bald Police Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bald Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 348,
+                                "y": 97,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Observation Room (CA)",
+                "access_rules": [
+                "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, mechanicjackhandle",
+				"combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 283,
+                                "y": 130,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Interrogation Room (CA)",
+                "access_rules": [
+                "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, mechanicjackhandle",
+				"combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 286,
+                                "y": 109,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 254,
+                                "y": 112,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Interrogation Room Licker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 269,
+                                "y": 106,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Roof (CA)",
+                "access_rules": [
+                "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle",
+                "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Outside by Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside by Stairs 1",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Outside by Stairs 2",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 424,
+                                "y": 69,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie outside of Boiler Room",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Male Zombie outside of Boiler Room",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 367,
+                                "y": 74,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Records Room (CA)",
+                "access_rules": [
+                "combatknife, boltcutters, heartkey"
+                ],
+                "children": [
+                    {
+                        "name": "Printer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Printer",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 66,
+                                "y": 216,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table 1",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 80,
+                                "y": 183,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table 2",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table 2",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 77,
+                                "y": 173,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Records Room (CAH)",
+					"access_rules": [
+						"combatknife, boltcutters, heartkey"
+					],
+					"children": [
+					{
+						"name": "Printer",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Printer",
+								"access_rules": [],
+								"visibility_rules": ["clairea, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 66,
+                                "y": 216,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+			{
+					"name": "Interrogation Room (CAH)",
+					"access_rules": [
+						"combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, heartkey, mechanicjackhandle"
+					],
+					"children": [
+					{
+						"name": "Chair across Room",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Chair across Room",
+								"access_rules": [],
+								"visibility_rules": ["clairea, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 259,
+                                "y": 97,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+			{
+					"name": "East Courtyard (CB)",
+					"access_rules": [
+						""
+					],
+					"children": [
+					{
+						"name": "Next to Stairs",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Next to Stairs",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 294,
+                                "y": 279,
+                                "size": 3
+                            }
+						]
+					},
+					{
+						"name": "Next to Brick Wall",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Next to Brick Wall",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 331,
+                                "y": 299,
+                                "size": 3
+                            }
+						]
+					},
+					{
+						"name": "Wheelbarrow",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Wheelbarrow",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 394,
+                                "y": 242,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+			{
+					"name": "Guard Room (CB)",
+					"access_rules": [
+						"boltcutters"
+					],
+					"children": [
+					{
+						"name": "Locker Door",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Locker Door",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 216,
+                                "y": 348,
+                                "size": 3
+                            }
+						]
+					},
+					{
+						"name": "Box by Door",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Box by Door",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 216,
+                                "y": 341,
+                                "size": 3
+                            }
+						]
+					},
+					{
+						"name": "Table",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Table",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 231,
+                                "y": 350,
+                                "size": 3
+                            }
+						]
+					},
+					{
+						"name": "On Radiator",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "On Radiator",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 232,
+                                "y": 341,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+			{
+                "name": "Fire Escape (CB)",
+                "access_rules": [
+        	"courtyardkey"
+        	],
+                "children": [
+                    {
+                        "name": "Bottom of Stairs",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bottom of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 425,
+                                "y": 232,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Barrel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 410,
+                                "y": 220,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Break Room Hallway (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters"
+                ],
+                "children": [
+                    {
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 395,
+                                "y": 93,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stuck in Wall",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stuck in Wall",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 401,
+                                "y": 189,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dark Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Plaid Shirt Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Munching Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 408,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Window",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dark Police Zombie from window",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Plain Zombie from window",
+                                "access_rules": ["boxedelectronicpart1"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 425,
+                                "y": 148,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Elliot",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Elliot is half the man he used to be",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 386,
+                                "y": 189,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Break Room (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 403,
+                                "y": 136,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lockers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Right Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 403,
+                                "y": 150,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sink",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Sink",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 412,
+                                "y": 169,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chair",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Chair",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 398,
+                                "y": 162,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "East Hallway 1F Closet (CB)",
+                "access_rules": [
+                    "courtyardkey, boltcutters"
+                ],
+                "children": [
+                    {
+                        "name": "Closet",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Shelves",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							},
+					{
+								"name": "Boxes",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 296,
+								"y": 152,
+								"size": 3
+							}
+						]
+					},
+					                    {
+                        "name": "Zombies",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Blonde Zombie",
+								"access_rules": [],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							},
+							{
+								"name": "Dark-Haired Zombie",
+								"access_rules": [],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							},
+							{
+								"name": "Overweight Zombie",
+								"access_rules": [],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 293,
+								"y": 163,
+								"size": 3,
+								"shape": "trapezoid"
+							}
+						]
+					},
+                ]
+            },			
+			{
+					"name": "Watchman's Room (CB)",
+					"access_rules": [
+						"courtyardkey, boltcutters"
+					],
+					"children": [
+					{
+						"name": "Zombie",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Police Zombie at Elliot",
+								"access_rules": [],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 389,
+								"y": 211,
+								"size": 5,
+								"shape": "trapezoid"
+							}
+						]
+					},
+				],
+			},
+			{
+                "name": "East Hallway 1F (CB)",
+                "access_rules": [
+                    "courtyardkey, boltcutters"
+                ],
+				"children": [
+					{
+						"name": "Window",
+						"access_rules": [
+							" "
+						],
+						"sections": [
+							{
+								"name": "Zombie from Elliots Window",
+								"access_rules": [],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							},
+							{
+								"name": "Female Zombie from window",
+								"access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+								"visibility_rules": ["claireb, killchecksb"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 366,
+								"y": 232,
+								"size": 5,
+								"shape": "trapezoid"
+							}
+						]
+					},
+				],
+            },
+            {
+                "name": "Press Room (CB)",
+                "access_rules": [
+                    "courtyardkey, boltcutters"
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 332,
+                                "y": 129,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Plaid Shirt Zombie",
+                        "access_rules": [
+                            "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plaid Shirt Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 342,
+                                "y": 126,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hiding Place Drawer",
+                        "access_rules": [
+			"combatknife, film-hidingplace"
+			],
+                        "sections": [
+                            {
+                                "name": "Hiding Place Drawer",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 311,
+                                "y": 114,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bathroom (CB)",
+                "access_rules": [
+                    "courtyardkey, boltcutters"
+                ],
+				"children": [
+                    {
+						"name": "Second Stall",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Second Stall",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 379,
+								"y": 164,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+			{
+                "name": "Main Hall (CB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Beside Main Desk",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Beside Main Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 241,
+                                "y": 221,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Main Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Main Desk 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Main Desk 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            },
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 233,
+                                "y": 202,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie Marvin",
+                        "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                        "sections": [
+                            {
+                                "name": "Zombie Marvin",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 231,
+                                "y": 167,
+                                "size": 5,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Main Hall (CBH)",
+					"access_rules": [
+						"courtyardkey, spadekey",
+						"courtyardkey, boltcutters, fuse-mainhall"
+					],
+					"children": [
+					{
+						"name": "Main Desk",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Main Desk 2",
+								"access_rules": [],
+								"visibility_rules": ["claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 233,
+                                "y": 202,
+                                "size": 3
+                            }
+						]
+					},
+				],
+			},
+            {
+                "name": "RPD Reception (CB)",
+                "access_rules": [
+        	"courtyardkey, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "Boxes",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boxes",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 173,
+                                "y": 213,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Couch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Couch",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 166,
+                                "y": 223,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Southwest Hallway (CB)",
+                "access_rules": [
+        	"courtyardkey, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "South Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie from first Window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 36,
+                                "y": 220,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Center Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie from mid Window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 36,
+                                "y": 164,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Roaming in Center",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Jumpsuit Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 47,
+                                "y": 154,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Roaming in North",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 62,
+                                "y": 78,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "North Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "First Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Second Zombie",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 48,
+                                "y": 70,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Licker at start of hallway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker at start of hallway",
+                                "access_rules": ["lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 102,
+                                "y": 220,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operations Room (CB)",
+                "access_rules": [
+        	"courtyardkey, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+				"children": [
+					{
+								"name": "Side Table",
+								"access_rules": [
+									" "
+								],
+								"sections": [
+							{
+								"name": "Side Table",
+								"access_rules": [],
+								"visibility_rules": ["claireb, standard", "claireb, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 90,
+								"y": 95,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+            {
+                "name": "West Hallway 1F (CB)",
+                "access_rules": [
+        	"courtyardkey, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "Back of Hallway",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Back of Hallway",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 105,
+                                "y": 87,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Vending Machines",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 99,
+                                "y": 172,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Outside West Office",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Zombie Playing Dead",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 117,
+                                "y": 162,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Licker outside West Office",
+                        "access_rules": [
+                            "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Licker outside West Office",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 137,
+                                "y": 156,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Window",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Zombie from Window at Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "2nd Zombie at Stairs",
+                                "access_rules": ["maidenmedallion"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 141,
+                                "y": 70,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Outside Darkroom",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside Darkroom 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Outside Darkroom 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 167,
+                                "y": 90,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Safety Deposit Room (CB)",
+                "access_rules": [
+        	"courtyardkey, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "Lockers",
+                        "access_rules": [],
+                        "sections": [
+			    {
+                                "name": "Locker 106",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 109",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Locker 102",
+                                "access_rules": [
+        			"sparekey"
+        			],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 208",
+                                "access_rules": [
+        			"sparekey"
+        			],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 103",
+                                "access_rules": [
+        			"sparekey: 2"
+        			],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Locker 203",
+                                "access_rules": [
+        			"sparekey: 2"
+        			],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 124,
+                                "y": 126,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weapons Locker",
+                        "access_rules": [
+                        "weaponslockerkeycard, combatknife"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Weapon",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+			    {
+                                "name": "Ammo",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 128,
+                                "y": 80,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Office (CB)",
+                "access_rules": [
+        	"courtyardkey, boltcutters, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "Desk by Lockers",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Desk by Lockers",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 126,
+                                "y": 184,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 113,
+                                "y": 198,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 113,
+                                "y": 218,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rookie Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rookie Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 157,
+                                "y": 185,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sleeping Desk Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleeping Desk Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 130,
+                                "y": 176,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sitting Zombie near Safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Zombie near Safe",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 134,
+                                "y": 221,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Darkroom (CB)",
+                "access_rules": [
+        	"courtyardkey, boltcutters, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+                    {
+                        "name": "Left Locker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 157,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Right Locker",
+                        "access_rules": [],
+                        "sections": [
+							{
+                                "name": "Right Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 163,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Photo Area",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Photo Area",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 156,
+                                "y": 143,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Darkroom (CBH)",
+                "access_rules": [
+        	"courtyardkey, boltcutters, spadekey",
+			"courtyardkey, boltcutters, fuse-mainhall"
+        	],
+                "children": [
+					{
+                        "name": "Right Locker",
+                        "access_rules": [],
+                        "sections": [
+							{
+                                "name": "Right Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 163,
+                                "y": 102,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "East Office (CB)",
+                "access_rules": [
+        	"courtyardkey, boltcutters"
+        	],
+                "children": [
+                    {
+                        "name": "Table by Door",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Table by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 351,
+                                "y": 225,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [
+                            " "
+                        ],
+						"sections": [
+							{
+								"name": "Wandering Zombie",
+								"access_rules": [],
+								"visibility_rules": ["killchecksupdate"],
+								"item_count": 1
+							},
+							{
+								"name": "Window Zombie",
+								"access_rules": [],
+								"visibility_rules": ["killchecksupdate"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+								"map": "R First Floor",
+								"x": 328,
+								"y": 210,
+								"size": 3,
+								"shape": "trapezoid"
+							}
+						]
+					},
+					{
+                        "name": "West Window",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Jumpsuit Zombie from office or window",
+                                "access_rules": ["combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, diamondkey, heartkey", "combatknife, spadekey, lionmedallion, unicornmedallion, maidenmedallion, mechanicjackhandle, heartkey"],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 306,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk by Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk by Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 326,
+                                "y": 224,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 331,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Middle of Long Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Middle of Long Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 331,
+                                "y": 196,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Office Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 295,
+                                "y": 226,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Office Furniture",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Furniture",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 284,
+                                "y": 226,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "East Office (CBH)",
+					"access_rules": [
+						"courtyardkey, boltcutters"
+					],
+					"children": [
+					{
+						"name": "Table by Door",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Table by Door",
+								"access_rules": [],
+								"visibility_rules": ["claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 351,
+                                "y": 225,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+            {
+                "name": "Operations Room 2 (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters, spadekey",
+				"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 58,
+                                "y": 146,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cabinets",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cabinets",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 76,
+                                "y": 139,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 86,
+                                "y": 146,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Heart Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Heart Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 76,
+                                "y": 162,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Side Stairs (CB)",
+                "access_rules": [
+                "courtyardkey, spadekey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, mechanicjackhandle",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Locker near Observation Room",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker near Observation Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 301,
+                                "y": 135,
+                                "size": 3
+                            }
+                        ]
+                    },
+					                    {
+                        "name": "Bald Police Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bald Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 348,
+                                "y": 97,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Observation Room (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 283,
+                                "y": 130,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Interrogation Room (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 286,
+                                "y": 109,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 254,
+                                "y": 112,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Interrogation Room Licker",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 269,
+                                "y": 106,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Roof (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+				"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Outside by Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside by Stairs 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Outside by Stairs 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 424,
+                                "y": 69,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie outside of Boiler Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Male Zombie outside of Boiler Room",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 367,
+                                "y": 74,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Records Room (CB)",
+                "access_rules": [
+                "courtyardkey, boltcutters, spadekey, heartkey",
+				"courtyardkey, boltcutters, fuse-mainhall, heartkey"
+                ],
+                "children": [
+                    {
+                        "name": "Printer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Printer",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 66,
+                                "y": 216,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table 1",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table 1",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 80,
+                                "y": 183,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table 2",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table 2",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R First Floor",
+                                "x": 77,
+                                "y": 173,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Records Room (CBH)",
+					"access_rules": [
+						"courtyardkey, spadekey, heartkey",
+						"courtyardkey, boltcutters, fuse-mainhall, heartkey"
+					],
+					"children": [
+					{
+						"name": "Printer",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Printer",
+								"access_rules": [],
+								"visibility_rules": ["claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 66,
+                                "y": 216,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			},
+			{
+					"name": "Interrogation Room (CBH)",
+					"access_rules": [
+						"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+						"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle",
+						"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, diamondkey",
+						"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, heartkey, mechanicjackhandle"
+					],
+					"children": [
+					{
+						"name": "Chair across Room",
+						"access_rules": [
+							" "
+						], 
+						"sections": [
+							{
+								"name": "Chair across Room",
+								"access_rules": [],
+								"visibility_rules": ["claireb, hardcore"],
+								"item_count": 1
+							},
+						],
+						"map_locations": [
+							{
+                                "map": "R First Floor",
+                                "x": 259,
+                                "y": 97,
+                                "size": 3
+                            }
+						]
+					}
+				]
+			}
+        ] 
+    }
+]

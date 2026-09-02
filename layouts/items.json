@@ -19,25 +19,25 @@
                         "item_width": 64,
                         "rows": [
                             [
-				"combatknife",
+								"combatknife",
                                 "spadekey",
                                 "diamondkey",
                                 "clubkey",
                                 "lionmedallion",
-   				"unicornmedallion",
-   				"maidenmedallion"
+								"unicornmedallion",
+								"maidenmedallion"
                             ],
                             [
                                 "smallgear",
                                 "largegear",
                                 "mechanicjackhandle",
                                 "squarecrank",
-				"boxedelectronicpart1",
-				"boxedelectronicpart2",
+								"boxedelectronicpart1",
+								"boxedelectronicpart2",
                                 "parkinggaragekeycard"
                             ],
                             [
-				"t-barhandle",
+								"t-barhandle",
                                 "pawnplug",
                                 "knightplug",
                                 "bishopplug",
@@ -69,10 +69,40 @@
                                 "bejeweledbox",
                                 "carkey",
                                 "sewerskey",
-				"fuse-breakroomhallway"
-                            ]
+                            ],
+							[
+								"courtyardkey",
+								"fuse-mainhall"
+							]
                         ]
                     }
+                ]
+            }
+        ]
+    },
+    "setting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "item_height": 96,
+                "item_width": 96,
+                "rows": [
+                    [
+						"leonA",
+						"leonB",
+					],
+					[
+                        "standard",
+                        "hardcore",
+					],
+					[
+                        "killchecks",
+                        "autotab"
+                    ]
                 ]
             }
         ]

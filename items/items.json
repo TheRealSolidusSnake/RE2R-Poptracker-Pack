@@ -7,6 +7,13 @@
         "codes": "spadekey"
     },
     {
+        "name": "Heart Key",
+        "type": "toggle",
+        "img": "images/items/heart-key.png",
+        "img_mods": "",
+        "codes": "heartkey"
+    },	
+    {
         "name": "Club Key",
         "type": "toggle",
         "img": "images/items/club-key.png",
@@ -286,6 +293,20 @@
         "img_mods": "",
         "codes": "film-hidingplace"
     },
+	{
+        "name": "Fuse - Main Hall",
+        "type": "toggle",
+        "img": "images/items/fuse-mainhall.png",
+        "img_mods": "",
+        "codes": "fuse-mainhall"
+    },
+	{
+        "name": "Courtyard Key",
+        "type": "toggle",
+        "img": "images/items/courtyard-key.png",
+        "img_mods": "",
+        "codes": "courtyardkey"
+    },
     {
         "name": "Combat Knife",
         "type": "toggle",
@@ -293,7 +314,6 @@
         "img_mods": "",
         "codes": "combatknife"
     },
-
     {
         "name": "Spare Key",
         "type": "consumable",
@@ -303,5 +323,47 @@
         "initial_quantity": 0,
         "img": "images/items/spare-key.png",
         "codes": "sparekey"
+    },
+	{
+        "name": "Leon A",
+        "type": "toggle",
+        "img": "images/items/leona.png",
+        "img_mods": "",
+        "codes": "leona"
+    },
+	{
+        "name": "Leon B",
+        "type": "toggle",
+        "img": "images/items/leonb.png",
+        "img_mods": "",
+        "codes": "leonb"
+    },
+	{
+        "name": "Standard",
+        "type": "toggle",
+        "img": "images/items/standard.png",
+        "img_mods": "",
+        "codes": "standard"
+    },
+	{
+        "name": "Hardcore",
+        "type": "toggle",
+        "img": "images/items/hardcore.png",
+        "img_mods": "",
+        "codes": "hardcore"
+    },
+	{
+        "name": "Kill Checks",
+        "type": "toggle",
+        "img": "images/items/killchecks.png",
+        "img_mods": "",
+        "codes": "killchecks"
+    },
+    {
+        "name": "Auto Tab",
+        "type": "toggle",
+        "img": "images/items/autotab.png",
+        "codes": "autotab",
+        "initial_active_state": true
     }
 ]

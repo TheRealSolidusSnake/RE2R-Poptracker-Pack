@@ -1,0 +1,1196 @@
+[
+    {
+        "name": "S Middle",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Upper Waterway (CA)",
+                "access_rules": ["t-barhandle"],
+                "children": [
+                    {
+                        "name": "Trash by Wall of Water",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash by Wall of Water",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 261,
+                                "y": 301,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Trash beside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash beside Gate",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 353,
+                                "y": 220,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "G-Adult in Upper Waterway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G-Adult in Upper Waterway",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 323,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Waterway Overpass (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Before the Waterslide",
+                        "access_rules": ["t-barhandle"],
+                        "sections": [
+                            {
+                                "name": "Before the Waterslide",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 381,
+                                "y": 177,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Monitor Room (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table with Raccoon Milk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Raccoon Milk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 121,
+                                "y": 161,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Rook Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rook Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 87,
+                                "y": 202,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "King Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "King Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 83,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Pawn Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pawn Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 91,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Monitor Room (CAH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table with Raccoon Milk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Raccoon Milk",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 121,
+                                "y": 161,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Treatment Pool Room (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 151,
+                                "y": 240,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sitting Plain Zombie by safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Plain Zombie by safe",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 151,
+                                "y": 245,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Safe (2, 12, 8)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe (2, 12, 8)",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 162,
+                                "y": 244,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Cable Car",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Cable Car",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 166,
+                                "y": 174,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Cable Car Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cable Car Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 168,
+                                "y": 153,
+                                "size": 2
+                            }
+                        ]
+                    },
+                ]
+            },
+	    {
+                "name": "Main Power Room (CA)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Stairs after Chess Puzzle",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stairs after Chess Puzzle",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 101,
+                                "y": 245,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "By Railing",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Railing",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 115,
+                                "y": 264,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "By Power Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Power Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 110,
+                                "y": 312,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Maintenance Level (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Storage Containers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Storage Containers",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 283,
+                                "y": 119,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewer Office (CA)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 277,
+                                "y": 159,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewer Office (CAH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 269,
+                                "y": 176,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Main Power Room (CAH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Trash Can before G2 Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash Can before G2 Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 131,
+                                "y": 251,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Proposed Water Purification Room (CA)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Pile of Metal",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pile of Metal",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 32,
+                                "y": 291,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Next to Crane Switch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Crane Switch",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 267,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "On Barrel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Barrel",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 254,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Stabbed into Sack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stabbed into Sack",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, standard", "clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 34,
+                                "y": 252,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "G2 Boss Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G2 Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 46,
+                                "y": 280,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Upper Waterway (CB)",
+                "access_rules": ["t-barhandle"],
+                "children": [
+                    {
+                        "name": "Trash by Wall of Water",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash by Wall of Water",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 261,
+                                "y": 301,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Trash beside Gate",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash beside Gate",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 353,
+                                "y": 220,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "G-Adult in Upper Waterway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G-Adult in Upper Waterway",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 323,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Waterway Overpass (CB)",
+                "access_rules": ["t-barhandle"],
+                "children": [
+                    {
+                        "name": "Before the Waterslide",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before the Waterslide",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 381,
+                                "y": 177,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Monitor Room (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table with Raccoon Milk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Raccoon Milk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 121,
+                                "y": 161,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Rook Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Rook Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 87,
+                                "y": 202,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "King Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "King Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 83,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Pawn Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pawn Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 91,
+                                "y": 190,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Monitor Room (CBH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table with Raccoon Milk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table with Raccoon Milk",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 121,
+                                "y": 161,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Treatment Pool Room (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 151,
+                                "y": 240,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sitting Plain Zombie by safe",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Plain Zombie by safe",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 151,
+                                "y": 245,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Safe (2, 12, 8)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe (2, 12, 8)",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 162,
+                                "y": 244,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Before Cable Car",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Cable Car",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 166,
+                                "y": 174,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Cable Car Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cable Car Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 168,
+                                "y": 153,
+                                "size": 2
+                            }
+                        ]
+                    },
+                ]
+            },
+	    {
+                "name": "Main Power Room (CB)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Stairs after Chess Puzzle",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stairs after Chess Puzzle",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 101,
+                                "y": 245,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "By Railing",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Railing",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 115,
+                                "y": 264,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "By Power Panel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Power Panel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 110,
+                                "y": 312,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Maintenance Level (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Storage Containers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Storage Containers",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 283,
+                                "y": 119,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewer Office (CB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 277,
+                                "y": 159,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewer Office (CBH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Table by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 269,
+                                "y": 176,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Main Power Room (CBH)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "Trash Can before G2 Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trash Can before G2 Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 131,
+                                "y": 251,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Proposed Water Purification Room (CB)",
+                "access_rules": [
+		"t-barhandle, pawnplug, rookplug, queenplug, kingplug, bishopplug, knightplug" 
+		],
+                "children": [
+                    {
+                        "name": "Pile of Metal",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Pile of Metal",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 32,
+                                "y": 291,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Next to Crane Switch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Crane Switch",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 267,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "On Barrel",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "On Barrel",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 31,
+                                "y": 254,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Stabbed into Sack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Stabbed into Sack",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, standard", "claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 34,
+                                "y": 252,
+                                "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "G2 Boss Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G2 Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Middle",
+                                "x": 46,
+                                "y": 280,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

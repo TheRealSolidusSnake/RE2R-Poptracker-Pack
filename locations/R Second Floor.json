@@ -16,7 +16,7 @@
                             {
                                 "name": "Lion Statue",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "2F Couch",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -58,20 +58,41 @@
                 ],
                 "children": [
                     {
-                        "name": "Downed Zombie",
+                        "name": "Sitting Police Zombie at top of Stairs",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "Downed Zombie",
+                                "name": "Sitting Police Zombie at top of Stairs",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "R Second Floor",
-                                "x": 157,
+                                "x": 159,
+                                "y": 124,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 154,
                                 "y": 124,
                                 "size": 3
                             }
@@ -84,7 +105,7 @@
                             {
                                 "name": "By Coffee Vending Machine",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -112,7 +133,7 @@
                             {
                                 "name": "Towel Rack",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -132,7 +153,7 @@
                             {
                                 "name": "Far Locker by Towel Rack",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -152,7 +173,7 @@
                             {
                                 "name": "Locked Locker (CAP)",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -174,7 +195,7 @@
                             {
                                 "name": "Locker past Steam",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -194,22 +215,49 @@
                 "access_rules": [
                     "combatknife, valvehandle"
                 ],
-                "sections": [
-                    {
-                        "name": "Couch",
+				"children": [
+					{
+                        "name": "Licker outside STARS Office",
                         "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "R Second Floor",
-                        "x": 42,
-                        "y": 138,
-                        "size": 3
-                    }
-                ]
+                        "sections": [
+                            {
+                                "name": "Licker outside STARS Office",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 27,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+						"name": "Couch",
+						"access_rules": [],
+						"sections": [
+							{
+								"name": "Couch",
+								"access_rules": [],
+								"visibility_rules": ["leona, standard", "leona, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R Second Floor",
+								"x": 42,
+								"y": 138,
+								"size": 3
+							}
+						]
+					}
+				]
             },
             {
                 "name": "STARS Office (LA)",
@@ -224,7 +272,7 @@
                             {
                                 "name": "Small Office Desk",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
                             {
@@ -232,7 +280,7 @@
                                 "access_rules": [
                                     "film-hidingplace"
                                 ],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
                             {
@@ -240,7 +288,7 @@
                                 "access_rules": [
                                     "film-hidingplace"
                                 ],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -260,7 +308,7 @@
                             {
                                 "name": "Boxes by Door",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -280,7 +328,7 @@
                             {
                                 "name": "Desk near Armory",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -300,7 +348,7 @@
                             {
                                 "name": "Box between Desks",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -320,7 +368,7 @@
                             {
                                 "name": "First Aid on Wall",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -340,7 +388,7 @@
                             {
                                 "name": "Desk near First Aid Kit",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -364,7 +412,7 @@
                     {
                         "name": "Weapon Cage",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["leona, standard", "leona, hardcore"],
                         "item_count": 1
                     }
                 ],
@@ -390,7 +438,7 @@
                             {
                                 "name": "Towel Rack",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -410,7 +458,7 @@
                             {
                                 "name": "Washing Machine",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -438,7 +486,7 @@
                             {
                                 "name": "Side Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -458,7 +506,7 @@
                             {
                                 "name": "Unicorn Statue",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -480,13 +528,76 @@
                 ],
                 "children": [
                     {
+                        "name": "Female Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 110,
+                                "y": 190,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 150,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie-Eating Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie-Eating Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 121,
+                                "y": 164,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
                         "name": "Downed Zombie",
                         "access_rules": [],
                         "sections": [
                             {
                                 "name": "Downed Zombie",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -506,7 +617,7 @@
                             {
                                 "name": "Table by Front Door",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -526,7 +637,7 @@
                             {
                                 "name": "Behind Moveable Shelves",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -554,7 +665,7 @@
                             {
                                 "name": "Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -574,7 +685,7 @@
                             {
                                 "name": "Safe behind Desk",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -596,13 +707,40 @@
                 ],
                 "children": [
                     {
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Helicopter Crash Zombie 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Helicopter Crash Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 371,
+                                "y": 236,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
                         "name": "Left of Art Room",
                         "access_rules": [],
                         "sections": [
                             {
                                 "name": "Left of Art Room",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -622,7 +760,7 @@
                             {
                                 "name": "Before Fire Escape",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -650,7 +788,7 @@
                             {
                                 "name": "Table near Door",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -670,7 +808,7 @@
                             {
                                 "name": "Table by Statue",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -699,7 +837,7 @@
                             {
                                 "name": "Bench by Flaming Helicopter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -719,7 +857,894 @@
                             {
                                 "name": "Room with Helicopter Crash",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 424,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Main Hall (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Lion Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Lion Statue",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 212,
+                                "y": 122,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2F Couch",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "2F Couch",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 166,
+                                "y": 266,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Hallway 2F (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Sitting Police Zombie at top of Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Police Zombie at top of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 159,
+                                "y": 124,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 154,
+                                "y": 124,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Coffee Vending Machine",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "By Coffee Vending Machine",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 77,
+                                "y": 120,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Shower Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 116,
+                                "y": 106,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Far Locker by Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Far Locker by Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 117,
+                                "y": 93,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locked Locker (CAP)",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Locked Locker (CAP)",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 105,
+                                "y": 90,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Locker past Steam",
+                        "access_rules": [
+                            "valvehandle"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker past Steam",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 38,
+                                "y": 108,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "STARS Office Hallway (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, valvehandle",
+					"courtyardkey, boltcutters, fuse-mainhall, valvehandle"
+                ],
+				"children": [
+					{
+                        "name": "Licker outside STARS Office",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker outside STARS Office",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 27,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+						"name": "Couch",
+						"access_rules": [],
+						"sections": [
+							{
+								"name": "Couch",
+								"access_rules": [],
+								"visibility_rules": ["leonb, standard", "leonb, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R Second Floor",
+								"x": 42,
+								"y": 138,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+            {
+                "name": "STARS Office (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, valvehandle",
+					"courtyardkey, boltcutters, fuse-mainhall, valvehandle"
+                ],
+                "children": [
+                    {
+                        "name": "Small Office Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Small Office Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Hiding Place Drawer",
+                                "access_rules": [
+                                    "film-hidingplace"
+                                ],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Hiding Place Secret Film",
+                                "access_rules": [
+                                    "film-hidingplace"
+                                ],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 45,
+                                "y": 158,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boxes by Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Boxes by Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 46,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk near Armory",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk near Armory",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 70,
+                                "y": 172,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Box between Desks",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Box between Desks",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 81,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Aid on Wall",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Aid on Wall",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 85,
+                                "y": 194,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desk near First Aid Kit",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk near First Aid Kit",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 79,
+                                "y": 200,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Armory (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, valvehandle, redbook, statueleftarm, bejeweledbox",
+					"courtyardkey, boltcutters, fuse-mainhall, valvehandle, redbook, statueleftarm, bejeweledbox"
+                ],
+				"children": [
+					{
+						"name": "Weapon Cage",
+						"access_rules": [],
+						"sections": [
+							{
+								"name": "Weapon Cage",
+								"access_rules": [],
+								"visibility_rules": ["leonb, standard", "leonb, hardcore"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R Second Floor",
+								"x": 77,
+								"y": 130,
+								"size": 3
+							}
+						]
+					}
+				]
+            },
+            {
+                "name": "Linen Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey, valvehandle, diamondkey",
+					"courtyardkey, boltcutters, fuse-mainhall, valvehandle, diamondkey"
+                ],
+                "children": [
+                    {
+                        "name": "Towel Rack",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Towel Rack",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 66,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Washing Machine",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Washing Machine",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 50,
+                                "y": 227,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "RPD Lounge (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Side Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Side Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 95,
+                                "y": 240,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Unicorn Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Unicorn Statue",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 125,
+                                "y": 243,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Library (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Female Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 110,
+                                "y": 190,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 150,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie-Eating Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie-Eating Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 121,
+                                "y": 164,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 101,
+                                "y": 211,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Front Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Front Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 148,
+                                "y": 204,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Moveable Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Behind Moveable Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 104,
+                                "y": 135,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Waiting Room (LB)",
+                "access_rules": [
+                    "courtyardkey, spadekey",
+					"courtyardkey, boltcutters, fuse-mainhall"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 285,
+                                "y": 228,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Safe behind Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Safe behind Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 300,
+                                "y": 234,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "East Hallway 2F (LB)",
+                "access_rules": [
+                    "courtyardkey"
+                ],
+                "children": [
+                    {
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Helicopter Crash Zombie 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Helicopter Crash Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 371,
+                                "y": 236,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Left of Art Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Left of Art Room",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 316,
+                                "y": 174,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Fire Escape",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Before Fire Escape",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 369,
+                                "y": 254,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Art Room (LB)",
+                "access_rules": [
+                    "courtyardkey"
+                ],
+                "children": [
+                    {
+                        "name": "Table near Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table near Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 343,
+                                "y": 198,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Statue",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Statue",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 332,
+                                "y": 233,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Roof (LB)",
+                "access_rules": [
+                    "courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, squarecrank",
+					"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, maidenmedallion, lionmedallion, mechanicjackhandle",
+					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, squarecrank",
+					"courtyardkey, spadekey, unicornmedallion, maidenmedallion, lionmedallion, mechanicjackhandle"
+                ],
+                "children": [
+                    {
+                        "name": "Bench by Flaming Helicopter",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Bench by Flaming Helicopter",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 412,
+                                "y": 192,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Room with Helicopter Crash",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Room with Helicopter Crash",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
                                 "item_count": 1
                             }
                         ],

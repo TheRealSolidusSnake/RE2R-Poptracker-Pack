@@ -2,25 +2,25 @@
     {
         "name": "R Basement",
         "access_rules": [
-        "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+        ""
         ],
         "children": [
             {
                 "name": "Parking Garage (LA)",
                 "access_rules": [
-                    " "
+                    "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
                         "name": "Police Car Trunk",
                         "access_rules": [
-			"carkey"
-			],
+							"carkey"
+						],
                         "sections": [
                             {
                                 "name": "Police Car Trunk",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -32,12 +32,47 @@
                                 "size": 5
                             }
                         ]
-                    }
+                    },
+					{
+                        "name": "Dogs",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Dog Before Jailbreak 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 201,
+                                "y": 182,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                 ]
             },
 	    {
                 "name": "Jail (LA)",
-                "access_rules": [],
+                "access_rules": [
+				"combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+				],
                 "children": [
                     {
                         "name": "First Office",
@@ -46,7 +81,7 @@
                             {
                                 "name": "First Office",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -66,7 +101,7 @@
                             {
                                 "name": "Table by Last Cell",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -88,7 +123,7 @@
                             {
                                 "name": "Ben's Corpse",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -111,7 +146,7 @@
                             {
                                 "name": "Last Cell Toilet",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -129,7 +164,7 @@
 	    {
                 "name": "Firing Range (LA)",
                 "access_rules": [
-                "combatknife"
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
                 ],
                 "children": [
                     {
@@ -139,7 +174,7 @@
                             {
                                 "name": "Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -159,7 +194,7 @@
                             {
                                 "name": "Cart inside Range",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -172,6 +207,48 @@
                             }
                         ]
                     },
+					{
+                        "name": "Overweight Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 272,
+                                "y": 139,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Female Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 294,
+                                "y": 146,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Diamond Room",
                         "access_rules": [	
@@ -181,13 +258,13 @@
                             {
                                 "name": "Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Bench",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -204,7 +281,9 @@
             },
 	    {
                 "name": "Kennel (LA)",
-                "access_rules": [],
+                "access_rules": [
+				"combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"
+				],
                 "children": [
                     {
                         "name": "Outside",
@@ -213,7 +292,7 @@
                             {
                                 "name": "Outside",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -233,7 +312,7 @@
                             {
                                 "name": "Baskets near Door",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -245,12 +324,88 @@
                                 "size": 3
                             }
                         ]
+                    },
+					{
+                        "name": "Caged Dogs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dog in Cage 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 336,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog from vent",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog from vent",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 303,
+                                "y": 177,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog jumping over debris outside doors",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog jumping over debris outside doors",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 230,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
 	    {
                 "name": "Morgue (LA)",
-                "access_rules": [],
+                "access_rules": [
+				"combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion"],
                 "children": [
                     {
                         "name": "2nd Body Drawer",
@@ -259,7 +414,7 @@
                             {
                                 "name": "2nd Body Drawer",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -279,7 +434,7 @@
                             {
                                 "name": "6th Body Drawer",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -292,6 +447,48 @@
                             }
                         ]
                     },
+					{
+                        "name": "Zombie at Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 386,
+                                "y": 224,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sleepy Zombie at Diamond Key",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleepy Zombie at Diamond Key",
+                                "access_rules": ["diamondkey"],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 400,
+                                "y": 193,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Next to Last Drawer",
                         "access_rules": [],
@@ -299,7 +496,7 @@
                             {
                                 "name": "Next to Last Drawer",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -314,10 +511,10 @@
                     }
                 ]
             },
-	    {
+			{
                 "name": "Generator Room (LA)",
                 "access_rules": [
-                "squarecrank"
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, squarecrank"
                 ],
                 "children": [
                     {
@@ -327,7 +524,7 @@
                             {
                                 "name": "Near Door on Ground",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -347,7 +544,7 @@
                             {
                                 "name": "Shelves",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -367,7 +564,7 @@
                             {
                                 "name": "Corner Table",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -379,9 +576,674 @@
                                 "size": 3
                             }
                         ]
+                    },
+					{
+                        "name": "Action Dog behind fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog behind fence",
+                                "access_rules": [""],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 387,
+                                "y": 129,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Action Dog under fence outside door",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog under fence outside door",
+                                "access_rules": [""],
+                                "visibility_rules": ["leona, killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 161,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
-            }    
+            },
+			{
+                "name": "Parking Garage (LB)",
+                "access_rules": [
+                "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Police Car Trunk",
+                        "access_rules": [
+							"carkey"
+						],
+                        "sections": [
+                            {
+                                "name": "Police Car Trunk",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 232,
+                                "y": 214,
+                                "size": 5
+                            }
+                        ]
+                    },
+					{
+                        "name": "Dogs",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Dog Before Jailbreak 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 201,
+                                "y": 182,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                ]
+            },
+	    {
+                "name": "Jail (LB)",
+                "access_rules": [
+				"courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+				],
+                "children": [
+                    {
+                        "name": "First Office",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First Office",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 151,
+                                "y": 266,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Table by Last Cell",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table by Last Cell",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 37,
+                                "y": 283,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ben's Corpse",
+                        "access_rules": [
+			"boxedelectronicpart1, boxedelectronicpart2"
+			],
+                        "sections": [
+                            {
+                                "name": "Ben's Corpse",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 63,
+                                "y": 278,
+                                "size": 5,
+				"shape": "diamond"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Last Cell Toilet",
+                        "access_rules": [
+			"boxedelectronicpart1, boxedelectronicpart2"
+			],
+                        "sections": [
+                            {
+                                "name": "Last Cell Toilet",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 63,
+                                "y": 267,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+	    {
+                "name": "Firing Range (LB)",
+                "access_rules": [
+                "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+                ],
+                "children": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 331,
+                                "y": 123,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cart inside Range",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Cart inside Range",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 307,
+                                "y": 145,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 272,
+                                "y": 139,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Female Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 294,
+                                "y": 146,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diamond Room",
+                        "access_rules": [	
+			"diamondkey"
+			],
+                        "sections": [
+                            {
+                                "name": "Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Bench",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 317,
+                                "y": 94,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Kennel (LB)",
+                "access_rules": [
+				"courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+				],
+                "children": [
+                    {
+                        "name": "Outside",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Outside",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 333,
+                                "y": 231,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Baskets near Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Baskets near Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 318,
+                                "y": 220,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Caged Dogs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dog in Cage 1",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 2",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 3",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 336,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog from vent",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog from vent",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 303,
+                                "y": 177,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog jumping over debris outside doors",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog jumping over debris outside doors",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 230,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Morgue (LB)",
+                "access_rules": [
+				"courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion"
+				],
+                "children": [
+                    {
+                        "name": "2nd Body Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "2nd Body Drawer",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 395,
+                                "y": 241,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "6th Body Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "6th Body Drawer",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 419,
+                                "y": 241,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie at Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at Door",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 386,
+                                "y": 224,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sleepy Zombie at Diamond Key",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleepy Zombie at Diamond Key",
+                                "access_rules": ["diamondkey"],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 400,
+                                "y": 193,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Next to Last Drawer",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Next to Last Drawer",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 395,
+                                "y": 193,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Generator Room (LB)",
+                "access_rules": [
+                "courtyardkey, spadekey, unicornmedallion, lionmedallion, maidenmedallion, squarecrank",
+				"courtyardkey, boltcutters, fuse-mainhall, unicornmedallion, lionmedallion, maidenmedallion, squarecrank"
+                ],
+                "children": [
+                    {
+                        "name": "Near Door on Ground",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Near Door on Ground",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 386,
+                                "y": 136,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shelves",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Shelves",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 406,
+                                "y": 175,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Corner Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Corner Table",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 413,
+                                "y": 159,
+                                "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog behind fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog behind fence",
+                                "access_rules": [""],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 387,
+                                "y": 129,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Action Dog under fence outside door",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog under fence outside door",
+                                "access_rules": [""],
+                                "visibility_rules": ["leonb, killchecksb"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 161,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            }
         ] 
     }
 ]

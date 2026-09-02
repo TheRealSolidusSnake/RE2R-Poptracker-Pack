@@ -16,7 +16,7 @@
                             {
                                 "name": "End of Third Hallway",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -36,7 +36,7 @@
                             {
                                 "name": "Barrels before Alligator Cutscene",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard"],
                                 "item_count": 1
                             }
                         ],
@@ -56,7 +56,7 @@
                             {
                                 "name": "After Alligator",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["leona, standard", "leona, hardcore"],
                                 "item_count": 1
                             }
                         ],
@@ -70,7 +70,125 @@
                         ]
                     }
                 ]
-            }     
+            },
+			{
+                "name": "Sewers Entrance (LAH)",
+                "access_rules": [],
+                "children": [
+					{
+                        "name": "Barrels before Alligator Cutscene",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrels before Alligator Cutscene",
+                                "access_rules": [],
+                                "visibility_rules": ["leona, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 191,
+                                "y": 65,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewers Entrance (LB)",
+                "access_rules": [],
+                "children": [
+                    {
+                        "name": "End of Third Hallway",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "End of Third Hallway",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 257,
+                                "y": 130,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "Barrels before Alligator Cutscene",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrels before Alligator Cutscene",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 191,
+                                "y": 65,
+                                "size": 2
+                            }
+                        ]
+                    },
+		    {
+                        "name": "After Alligator",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "After Alligator",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, standard", "leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 147,
+                                "y": 324,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Sewers Entrance (LBH)",
+                "access_rules": [],
+                "children": [
+					{
+                        "name": "Barrels before Alligator Cutscene",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Barrels before Alligator Cutscene",
+                                "access_rules": [],
+                                "visibility_rules": ["leonb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Entrance",
+                                "x": 191,
+                                "y": 65,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }
         ] 
     }
 ]

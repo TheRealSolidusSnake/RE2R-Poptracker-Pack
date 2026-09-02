@@ -21,7 +21,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/UF Middle.json")
     Tracker:AddLocations("locations/UF Lower.json")
     Tracker:AddLocations("locations/R Basement.json")
-    Tracker:AddLocations("locations/Outside RPD.json")
+    Tracker:AddLocations("locations/R Streets.json")
     Tracker:AddLocations("locations/S Entrance.json")
     Tracker:AddLocations("locations/S Upper.json")
     Tracker:AddLocations("locations/S Middle.json")
@@ -30,6 +30,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/L B2 East.json")
     Tracker:AddLocations("locations/L B2 West.json")
     Tracker:AddLocations("locations/L B3.json")
+    Tracker:AddLocations("locations/L Train.json")
 end
 
 -- Layout

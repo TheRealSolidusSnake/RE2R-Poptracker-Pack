@@ -1,0 +1,70 @@
+[
+    {
+        "name": "O 1F",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Orphanage (CAH)",
+                "access_rules": [
+					" "
+				],
+                "children": [
+                    {
+                        "name": "Shelves before Printer",
+                        "access_rules": [
+							" "
+						],
+                        "sections": [
+                            {
+                                "name": "Shelves before Printer",
+                                "access_rules": [],
+                                "visibility_rules": ["clairea, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "O 1F",
+                                "x": 176,
+                                "y": 53,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Orphanage (CBH)",
+                "access_rules": [
+					" "
+				],
+                "children": [
+                    {
+                        "name": "Shelves before Printer",
+                        "access_rules": [
+							" "
+						],
+                        "sections": [
+                            {
+                                "name": "Shelves before Printer",
+                                "access_rules": [],
+                                "visibility_rules": ["claireb, hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "O 1F",
+                                "x": 176,
+                                "y": 53,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ] 
+    }
+]
